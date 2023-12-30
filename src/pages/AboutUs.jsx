@@ -1,7 +1,6 @@
 import React from 'react'
 import OtherNav from '../components/OtherNav'
 import Gp2 from './../assets/graphics_2.png'
-import { motion } from "framer-motion"
 
 function AboutUs() {
   return (
