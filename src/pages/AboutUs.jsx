@@ -1,6 +1,7 @@
 import React from 'react'
 import OtherNav from '../components/OtherNav'
 import Gp2 from './../assets/graphics_2.png'
+import { motion } from "framer-motion"
 
 function AboutUs() {
   return (
@@ -19,7 +20,7 @@ function AboutUs() {
           </p>
         </div>
         <div className='w-full relative p-0 m-0 pt-10 flex justify-end'>
-          <img src={Gp2} className='absolute bottom-0 h-[99%]' />
+          <img  src={Gp2} className='absolute bottom-0 h-[99%]' />
         </div>
       </div>
     </section>
