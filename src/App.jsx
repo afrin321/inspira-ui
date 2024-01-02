@@ -4,7 +4,6 @@ import { Route, Routes } from 'react-router'
 import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
 import Services from './pages/Services'
-import Board4 from './pages/Board4'
 
 
 function App() {
@@ -22,8 +21,7 @@ function App() {
       
       <Home/>      
       <AboutUs/>
-      <Board4/>
-      <AboutUs/>
+      <Services/>
     </div>
   )
 }

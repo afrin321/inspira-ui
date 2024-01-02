@@ -1,42 +1,120 @@
-import React, { useEffect } from 'react'
-import { useRef } from 'react'
+import React from 'react'
 import OtherNav from '../components/OtherNav'
 import Img1 from './../assets/services_1.png'
-import Img2 from './../assets/services_2.png'
+import Img2 from './../assets/services_3.png'
+
+import Text1 from './../assets/text_1.png'
+import Text2 from './../assets/text_2.png'
+import Text3 from './../assets/text_3.png'
+import Text4 from './../assets/text_4.png'
+
 import { motion, useScroll, useTransform } from 'framer-motion'
+import { useRef } from 'react'
 
 function Services() {
-    const ref = useRef(null)
-    const { scrollYProgress } = useScroll({
-        target: ref,
-        offset: ['start center', 'end end']
+    const targetRef = useRef(null)
+
+    const {scrollYProgress} = useScroll({
+        target: targetRef,
+        offset: ['start start', 'end start']
     })
 
-    //const r1 = useTransform(scrollYProgress, [0, 1], ['0%', '100%'])
+    const rotate = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['rotate(0deg)', 'rotate(-45deg)', 'rotate(-90deg)', 'rotate(-135deg)'])
     
+    const firstIconOpacity = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['100%', '40%', '0%', '0%'])
+    const firstIconTranslateY = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['0%', '-20vh', '-30vh', '-40vh'])
+    const firstIconDisplay = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['block', 'block', 'none', 'none'])
 
+    const secondIconOpacity = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['40%', '100%', '40%', '0%'])
+    const secondIconTranslateY = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['-5vh', '-35vh', '-60vh', '-70vh'])
+    const secondIconDisplay = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['block', 'block', 'block', 'block'])
 
-
-
+    const thirdIconOpacity = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['0%', '40%', '100%', '40%'])
+    const thirdIconTranslateY = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['0%', '-12vh', '-45vh', '-65vh'])
+    const thirdIconDisplay = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['none', 'block', 'block', 'block'])
+    
+    const fourthIconOpacity = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['0%', '0%', '40%', '100%'])
+    const fourthIconTranslateY = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['0%', '0%', '-20vh', '-50vh'])
+    const fourthIconDisplay = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['none', 'none', 'block', 'block'])
 
   return (
-    <section ref={ref} className='m-0 p-0 flex flex-col w-full h-screen'>
-      <OtherNav/>
-      <div className='bg-[#E4E3DB] relative h-full w-full m-0 flex justify-between items-center p-0 overflow-hidden'>
-            <div>
-                <img src={Img1} className='absolute left-0 bottom-0 h-full w-auto z-10' />
-                <motion.img 
-                    src={Img2} 
-                   
-                    className='h-[90%] absolute bottom-0 left-48' 
-                />
+    <div className='h-[400vh] bg-[#E4E3DB] m-0 p-0 flex flex-col relative' ref={targetRef}>
+        <div className='sticky top-0 h-screen overflow-hidden bg-transparent'>
+            <OtherNav/>
+            <div className='h-full flex justify-between'>
+                <img src={Img1} className='h-full z-[5] object-scale-down' />
+                <motion.img style={{ transform: rotate }} src={Img2} className='h-[80%] z-[4] absolute bottom-0 left-[23%] mb-1' />
+                <div 
+                className='bg-transparent w-[40%] 
+                flex flex-col justify-start relative gap-12'>
+                    <div className='sticky r-0 w-auto flex flex-col items-end px-20 pt-10 gap-2'>
+                        <p className='z-50 text-[#F7073E] font-normal text-4xl'>¿LO QUE</p>
+                        <p className='z-50 text-[#F7073E] font-bold text-4xl'>HACEMOS? </p>
+                    </div>
+                    <div 
+                    className='h-[55vh] w-full 
+                    overflow-hidden
+                    relative'>
+                        <motion.div 
+                        style={{
+                            opacity: firstIconOpacity, 
+                            translateY: firstIconTranslateY,
+                            display: firstIconDisplay
+                        }} 
+                        className={`w-full flex flex-col px-20 gap-2 whitespace-pre-wrap absolute top-[25%]`}>
+                            <p className='font-bold text-[#FF6F1F] text-md'>COORDINACIÓN FOTOGRÁFICA</p>
+                            
+                            <p className='text-[#A49090] font-medium text-md whitespace-normal'>
+                            Maximizamos el potencial de un master graphic a través del photo shooting. 
+                            </p>
+                        </motion.div>
+
+                        <motion.div 
+                        style={{ 
+                            opacity: secondIconOpacity,
+                            translateY: secondIconTranslateY,
+                            display: secondIconDisplay
+                         }}
+                        className={`w-full flex flex-col px-20 gap-2 whitespace-pre-wrap absolute bottom-[-20%] opacity-40`}>
+                            <p className='font-bold text-[#FF6F1F] text-md'>GESTIÓN DE MARCA EN PROCESOS DE ETIQUETADO</p>
+                            
+                            <p className='text-[#A49090] font-medium text-md whitespace-normal'>
+                                Lideramos el proceso desde diseño hasta producción, asegurándonos de cumplir con los candados de calidad en los mejores tiempos.
+                            </p>
+                        </motion.div>
+
+                        <motion.div 
+                        style={{ 
+                            opacity: thirdIconOpacity,
+                            translateY: thirdIconTranslateY,
+                            display: thirdIconDisplay                            
+                         }}
+                        className={`w-full flex flex-col px-20 gap-2 whitespace-pre-wrap absolute bottom-[-30%]`}>
+                            <p className='font-bold text-[#FF6F1F] text-md'>ADAPTACIÓN DE EMPAQUE</p>
+                            
+                            <p className='text-[#A49090] font-medium text-md whitespace-normal'>
+                                Traducimos la viabilidad de una idea creativa impactante, del diseño al anaquel.
+                            </p>
+                        </motion.div>
+
+                        <motion.div 
+                        style={{ 
+                            opacity: fourthIconOpacity,
+                            translateY: fourthIconTranslateY,
+                            display: fourthIconDisplay                            
+                         }}
+                        className={`w-full flex flex-col px-20 gap-2 whitespace-pre-wrap absolute bottom-[-40%]`}>
+                            <p className='font-bold text-[#FF6F1F] text-md'>COMUNICACIÓN GRÁFICA. POP Y OOH</p>
+                            
+                            <p className='text-[#A49090] font-medium text-md whitespace-normal'>
+                            Aseguramos la iconicidad de la marca y la claridad del mensaje en todos sus puntos de contacto.
+                            </p>
+                        </motion.div>
+                    </div>
+                </div>
             </div>
-            
-            <div > 
-                
-            </div>
-      </div>
-    </section>
+        </div>
+    </div>
   )
 }
 
