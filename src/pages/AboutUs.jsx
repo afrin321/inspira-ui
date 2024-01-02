@@ -4,7 +4,7 @@ import Gp2 from './../assets/graphics_2.png'
 
 function AboutUs() {
   return (
-    <section className='m-0 p-0 flex flex-col w-full h-screen'>
+    <section className='m-0 p-0 flex flex-col w-full h-screen snap-center'>
       <OtherNav/>
       <div className='bg-[#E4E3DB] h-full w-full m-0 flex justify-between px-[8%] gap-20'>
         <div className='flex flex-col justify-center gap-10 py-[5%] w-full'>

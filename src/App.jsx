@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router'
 import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
 import Services from './pages/Services'
+import Board4 from './pages/Board4'
 
 
 function App() {
@@ -13,11 +14,16 @@ function App() {
     <div  className='w-full h-auto'>
       {/* <Routes>
         <Route path="/" Component={Home}/>
-        <Route path="/" Component={Home}/>
+        <Route path="/about" Component={AboutUs}/>
+        <Route path="/services" Component={Services}/>
       </Routes> */}
-      <Home/>
+
+            
+      
+      <Home/>      
       <AboutUs/>
-      <Services/>
+      <Board4/>
+      <AboutUs/>
     </div>
   )
 }
