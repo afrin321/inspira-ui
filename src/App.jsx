@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router'
 import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
 import Services from './pages/Services'
+import Qualities from './pages/Qualities'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Home/>      
       <AboutUs/>
       <Services/>
+      <Qualities/>
     </div>
   )
 }
