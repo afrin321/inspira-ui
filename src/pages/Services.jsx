@@ -3,11 +3,6 @@ import OtherNav from '../components/OtherNav'
 import Img1 from './../assets/services_1.png'
 import Img2 from './../assets/services_3.png'
 
-import Text1 from './../assets/text_1.png'
-import Text2 from './../assets/text_2.png'
-import Text3 from './../assets/text_3.png'
-import Text4 from './../assets/text_4.png'
-
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { useRef } from 'react'
 
@@ -43,13 +38,13 @@ function Services() {
             <OtherNav/>
             <div className='h-full flex justify-between'>
                 <img src={Img1} className='h-full z-[5] object-scale-down' />
-                <motion.img style={{ transform: rotate }} src={Img2} className='h-[80%] z-[4] absolute bottom-0 left-[23%] mb-1' />
+                <motion.img style={{ transform: rotate }} src={Img2} className='h-[80%] z-[4] absolute bottom-0 left-[23%] min-[800px]:max-[1280px]:left-[15%] mb-1' />
                 <div 
-                className='bg-transparent w-[40%] 
+                className='bg-transparent max-[1390px]:w-[40%] min-[1400px]:max-[1700px]:w-[30%] 2xl:w-[25%]
                 flex flex-col justify-start relative gap-12'>
                     <div className='sticky r-0 w-auto flex flex-col items-end px-20 pt-10 gap-2'>
-                        <p className='z-50 text-[#F7073E] font-normal text-4xl'>¿LO QUE</p>
-                        <p className='z-50 text-[#F7073E] font-bold text-4xl'>HACEMOS? </p>
+                        <p className='z-50 text-[#F7073E] font-normal max-[1380px]:text-4xl min-[1400px]:text-5xl 2xl:text-6xl'>¿LO QUE</p>
+                        <p className='z-50 text-[#F7073E] font-bold max-[1380px]:text-4xl min-[1400px]:text-5xl 2xl:text-6xl'>HACEMOS? </p>
                     </div>
                     <div 
                     className='h-[55vh] w-full 
@@ -61,10 +56,10 @@ function Services() {
                             translateY: firstIconTranslateY,
                             display: firstIconDisplay
                         }} 
-                        className={`w-full flex flex-col px-20 gap-2 whitespace-pre-wrap absolute top-[25%]`}>
-                            <p className='font-bold text-[#FF6F1F] text-md'>COORDINACIÓN FOTOGRÁFICA</p>
+                        className={`w-full flex flex-col px-20 gap-2 whitespace-pre-wrap absolute max-[1390px]:top-[25%] min-[1400px]:top-[40%] 2xl:top-[45%]`}>
+                            <p className='font-bold text-[#FF6F1F] text-md 2xl:text-xl'>COORDINACIÓN FOTOGRÁFICA</p>
                             
-                            <p className='text-[#A49090] font-medium text-md whitespace-normal'>
+                            <p className='text-[#A49090] font-medium text-md whitespace-normal 2xl:text-xl'>
                             Maximizamos el potencial de un master graphic a través del photo shooting. 
                             </p>
                         </motion.div>
@@ -75,10 +70,10 @@ function Services() {
                             translateY: secondIconTranslateY,
                             display: secondIconDisplay
                          }}
-                        className={`w-full flex flex-col px-20 gap-2 whitespace-pre-wrap absolute bottom-[-20%] opacity-40`}>
-                            <p className='font-bold text-[#FF6F1F] text-md'>GESTIÓN DE MARCA EN PROCESOS DE ETIQUETADO</p>
+                        className={`w-full flex flex-col px-20 gap-2 whitespace-pre-wrap absolute max-[1390px]:bottom-[-20%] min-[1400px]:bottom-[-40%] 2xl:bottom-[-30%] opacity-40 2xl:text-xl`}>
+                            <p className='font-bold text-[#FF6F1F] text-md 2xl:text-xl'>GESTIÓN DE MARCA EN PROCESOS DE ETIQUETADO</p>
                             
-                            <p className='text-[#A49090] font-medium text-md whitespace-normal'>
+                            <p className='text-[#A49090] font-medium text-md whitespace-normal 2xl:text-xl'>
                                 Lideramos el proceso desde diseño hasta producción, asegurándonos de cumplir con los candados de calidad en los mejores tiempos.
                             </p>
                         </motion.div>
@@ -89,10 +84,10 @@ function Services() {
                             translateY: thirdIconTranslateY,
                             display: thirdIconDisplay                            
                          }}
-                        className={`w-full flex flex-col px-20 gap-2 whitespace-pre-wrap absolute bottom-[-30%]`}>
+                        className={`w-full flex flex-col px-20 gap-2 whitespace-pre-wrap absolute max-[1390px]:bottom-[-30%] min-[1400px]:bottom-[-50%] 2xl:bottom-[-50%] 2xl:text-xl`}>
                             <p className='font-bold text-[#FF6F1F] text-md'>ADAPTACIÓN DE EMPAQUE</p>
                             
-                            <p className='text-[#A49090] font-medium text-md whitespace-normal'>
+                            <p className='text-[#A49090] font-medium text-md whitespace-normal 2xl:text-xl'>
                                 Traducimos la viabilidad de una idea creativa impactante, del diseño al anaquel.
                             </p>
                         </motion.div>
@@ -103,10 +98,10 @@ function Services() {
                             translateY: fourthIconTranslateY,
                             display: fourthIconDisplay                            
                          }}
-                        className={`w-full flex flex-col px-20 gap-2 whitespace-pre-wrap absolute bottom-[-40%]`}>
+                        className={`w-full flex flex-col px-20 gap-2 whitespace-pre-wrap absolute max-[1390px]:bottom-[-40%] min-[1400px]:bottom-[-60%] 2xl:bottom-[-60%] 2xl:text-xl`}>
                             <p className='font-bold text-[#FF6F1F] text-md'>COMUNICACIÓN GRÁFICA. POP Y OOH</p>
                             
-                            <p className='text-[#A49090] font-medium text-md whitespace-normal'>
+                            <p className='text-[#A49090] font-medium text-md whitespace-normal 2xl:text-xl'>
                             Aseguramos la iconicidad de la marca y la claridad del mensaje en todos sus puntos de contacto.
                             </p>
                         </motion.div>
