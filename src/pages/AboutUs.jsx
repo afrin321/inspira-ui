@@ -4,13 +4,13 @@ import Gp2 from './../assets/graphics_2.png'
 
 function AboutUs() {
   return (
-    <section className='m-0 p-0 flex flex-col w-full h-screen snap-center'>
+    <section className='m-0 p-0 flex flex-col w-full h-screen'>
       <OtherNav/>
       <div className='bg-[#E4E3DB] h-full w-full m-0 flex justify-between px-[8%] gap-20'>
         <div className='flex flex-col justify-center gap-10 py-[5%] w-full'>
-          <span className='text-[#F7073E] text-[55px] min-[1920px]:text-[70px] font-normal leading-normal'>¿QUE NOS <b>INSPIRA</b>? </span>
-          <p className='text-[#A49090] min-[1920px]:text-[28px] font-normal'>
-            Llegamos en el 2007 con el propósito de <b>cuidar</b> la consistencia e iconicidad de las marcas con las que colaboramos contribuyendo a su <b>memorabilidad</b>. <br/>
+          <span className='text-[#F7073E] text-5xl min-[1920px]:text-[70px] leading-[57px] min-[1920px]:leading-[95px] font-normal'>¿QUE NOS <b className='font-bold'>INSPIRA</b>? </span>
+          <p className='text-[#A49090] min-[1920px]:text-[28px] text-[14px] font-normal w-[460px] leading-5'>
+            Llegamos en el 2007 con el propósito de <b>cuidar</b> la consistencia e iconicidad de las marcas con las que colaboramos contribuyendo a su <b>memorabilidad</b>.
             Lo que más nos inspira, <b>es ser el guardián de tu marca.</b> <br/>
             <br/>
             Damos soluciones en comunicación gráfica para los diferentes puntos de contacto entre una marca y su consumidor.<br/>

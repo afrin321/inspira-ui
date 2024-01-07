@@ -5,9 +5,9 @@ import Gp1 from './../assets/graphics_1.png'
 import { motion } from "framer-motion"
 
 
-function Home() {
+function Home(props) {
   return (
-    <section className={`snap-center w-full h-screen home px-[8%] flex flex-col gap-20 pt-[2%] pb-0 m-0`}>
+    <section className={`w-full h-screen home px-[8%] flex flex-col gap-20 pt-[2%] pb-0 m-0`}>
         <HomeNav />
         <div className='flex gap-10 justify-between relative h-full'>
             <motion.div className='h-full w-full' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1, duration:2 }} >

@@ -7,10 +7,8 @@ import Services from './pages/Services'
 import Qualities from './pages/Qualities'
 import Team from './pages/Team'
 import Contact from './pages/Contact'
-
-
+import Menu from './components/Menu'
 function App() {
-  
 
   return (
     <div  className='w-full h-auto'>
@@ -20,14 +18,14 @@ function App() {
         <Route path="/services" Component={Services}/>
       </Routes> */}
 
-            
+        <Home/>      
+        <AboutUs/>
+        <Services/>
+        <Qualities/>
+        <Team/>
+        <Contact/>
+        <Menu/>           
       
-      <Home/>      
-      <AboutUs/>
-      <Services/>
-      <Qualities/>
-      <Team/>
-      <Contact/>
     </div>
   )
 }

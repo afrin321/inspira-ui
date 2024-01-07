@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans&family=Montserrat&family=Noto+Sans&family=Orelega+One&family=Pacifico&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
 
 .home {
     background-image: url('./assets/bg.png');
@@ -13,3 +23,36 @@
 footer {
     background-image: url('./assets/bg_contact.png');
 }
+
+.menu-text {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+@media screen and (max-height: 1200px) {
+    .menu-text {
+      font-size: 27px; /* Adjust as needed */
+    }
+  }
+  
+  /* Medium size screen */
+  @media screen and (max-height: 992px) {
+    .menu-text {
+      font-size: 24px; /* Adjust as needed */
+    }
+  }
+  
+  /* Small size screen */
+  @media screen and (max-height: 768px) {
+    .menu-text {
+      font-size: 21px; /* Adjust as needed */
+    }
+  }
+  
+  /* Extra Small size screen */
+  @media screen and (max-height: 576px) {
+    .menu-text {
+      font-size: 18px; /* Adjust as needed */
+    }
+  }
