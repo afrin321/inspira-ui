@@ -8,8 +8,8 @@ import Q3 from './../assets/q3.png'
 function Qualities() {
   return (
     <section className='bg-[#E4E3DB] m-0 p-0 flex flex-col w-full h-screen'>
-      <OtherNav/>
-      <div className='mt-5 h-full w-full m-0 flex justify-between '>
+      {/* <OtherNav styles='opacity-0' /> */}
+      <div className='mt-16 h-full w-full m-0 flex justify-between '>
         <div className='w-full flex flex-col pt-8 px-[8%] gap-10'>
             <div className='flex flex-col text-4xl min-[1920px]:text-[70px] font-medium'>
                 <p className='text-[#F7073E] whitespace-nowrap leading-[67px] min-[1920px]:leading-[95px]'>CASOS QUE NOS</p>

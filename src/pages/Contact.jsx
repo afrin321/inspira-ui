@@ -6,12 +6,12 @@ import Graphics from './../assets/graphics_3.png'
 function Contact() {
   return (
     <section className='relative bg-[#E4E3DB] m-0 p-0 flex flex-col w-full h-screen'>
-      <OtherNav/>
+      {/* <OtherNav /> */}
       <div className='w-full clear-start overflow-hidden relative flex gap-5 '>
         <div className='w-auto relative'>
-          <img src={Graphics} className='w-auto h-full relative top-[-50px] ' />
+          <img src={Graphics} className='w-auto h-full relative  ' />
         </div>        
-        <div className='w-full flex flex-col items-end gap-2 p-8 px-12'>
+        <div className='w-full flex flex-col items-end gap-2 p-8 pt-24 px-12'>
           <p className='text-4xl leading-[67px] font-medium text-[#F7073E] flex justify-end '>PLATIQUEMOS</p>
           <div className='flex flex-col justify-end items-end w-full gap-4'>
             <input 

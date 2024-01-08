@@ -8,6 +8,7 @@ import Qualities from './pages/Qualities'
 import Team from './pages/Team'
 import Contact from './pages/Contact'
 import Menu from './components/Menu'
+import OtherNav from './components/OtherNav'
 function App() {
 
   return (
@@ -18,12 +19,15 @@ function App() {
         <Route path="/services" Component={Services}/>
       </Routes> */}
 
-        <Home/>      
-        <AboutUs/>
-        <Services/>
-        <Qualities/>
-        <Team/>
-        <Contact/>
+        <Home/>     
+        <div className='w-full h-auto m-0 p-0'>
+          <OtherNav styles='sticky top-0 left-0 z-60'/>
+          <AboutUs/>
+          <Services/>
+          <Qualities/>
+          <Team/>
+          <Contact/>
+        </div> 
         <Menu/>           
       
     </div>

@@ -35,16 +35,16 @@ function Services() {
   return (
     <div className='h-[400vh] bg-[#E4E3DB] m-0 p-0 flex flex-col relative' ref={targetRef}>
         <div className='sticky top-0 h-screen overflow-hidden bg-transparent'>
-            <OtherNav/>
-            <div className='h-full flex justify-between'>
-                <img src={Img1} className='h-full z-[5] object-scale-down' />
+            
+            <div className='h-full flex justify-between pt-16'>
+                <img src={Img1} className='h-screen z-[5] object-scale-down' />
                 <motion.img style={{ transform: rotate }} src={Img2} className='h-[80%] z-[4] absolute bottom-0 left-[23%] min-[800px]:max-[1280px]:left-[15%] mb-1' />
                 <div 
                 className='bg-transparent max-[1390px]:w-[40%] min-[1400px]:max-[1700px]:w-[30%] 2xl:w-[25%]
                 flex flex-col justify-start relative gap-12'>
                     <div className='sticky r-0 w-auto flex flex-col items-end px-20 pt-10 gap-2'>
-                        <p className='z-50 text-[#F7073E] font-normal max-[1380px]:text-4xl min-[1400px]:text-5xl 2xl:text-6xl'>¿LO QUE</p>
-                        <p className='z-50 text-[#F7073E] font-bold max-[1380px]:text-4xl min-[1400px]:text-5xl 2xl:text-6xl'>HACEMOS? </p>
+                        <p className='z-50 text-[#F7073E] font-normal max-[1380px]:text-4xl min-[1400px]:text-5xl 2xl:text-6xl whitespace-nowrap'>¿LO QUE</p>
+                        <p className='z-50 text-[#F7073E] font-bold max-[1380px]:text-4xl min-[1400px]:text-5xl 2xl:text-6xl whitespace-nowrap'>HACEMOS? </p>
                     </div>
                     <div 
                     className='h-[55vh] w-full 
