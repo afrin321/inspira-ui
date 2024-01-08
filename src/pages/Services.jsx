@@ -33,7 +33,7 @@ function Services() {
     const fourthIconDisplay = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['none', 'none', 'block', 'block'])
 
   return (
-    <div className='h-[400vh] bg-[#E4E3DB] m-0 p-0 flex flex-col relative' ref={targetRef}>
+    <div id='service' className='h-[400vh] bg-[#E4E3DB] m-0 p-0 flex flex-col relative' ref={targetRef}>
         <div className='sticky top-0 h-screen overflow-hidden bg-transparent'>
             
             <div className='h-full flex justify-between pt-16'>

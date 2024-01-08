@@ -18,7 +18,11 @@ body {
 
 .nav {
     background-image: url('./assets/nav_bg.png');
-    z-index: 100 !important;
+    z-index: 95 !important;
+}
+
+.menu-open {
+  z-index: 100 !important;
 }
 
 footer {

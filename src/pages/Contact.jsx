@@ -5,7 +5,7 @@ import Graphics from './../assets/graphics_3.png'
 
 function Contact() {
   return (
-    <section className='relative bg-[#E4E3DB] m-0 p-0 flex flex-col w-full h-screen'>
+    <section id='contact' className='relative bg-[#E4E3DB] m-0 p-0 flex flex-col w-full h-screen'>
       {/* <OtherNav /> */}
       <div className='w-full clear-start overflow-hidden relative flex gap-5 '>
         <div className='w-auto relative'>

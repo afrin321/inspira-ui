@@ -5,9 +5,9 @@ import Person2 from './../assets/person_2.png'
 
 function Team() {
   return (
-    <section className='bg-[#E4E3DB] m-0 p-0 flex flex-col w-full h-screen'>
+    <section id='team' className='bg-[#E4E3DB] m-0 p-0 flex flex-col w-full h-screen'>
       {/* <OtherNav /> */}
-      <div className='flex flex-col w-full gap-1 px-[8%]'>
+      <div className='flex flex-col w-full gap-1 px-[8%] pt-16'>
         <div className='flex justify-end'>
             <span className='text-4xl min-[1920px]:text-[70px] text-[#F7073E] leading-[67px] min-[1920px]:leading-[95px] mt-10 mb-4 font-medium'>¿QUIÉN NOS <span className='font-bold'>INSPIRA</span>? </span>
         </div>
