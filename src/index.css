@@ -12,7 +12,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.home {
+.home, .qualities {
     background-image: url('./assets/bg.png');
 }
 
@@ -33,6 +33,77 @@ footer {
     font-size: 30px;
     font-weight: bold;
     line-height: 40px;
+}
+
+.case1 {
+  background-image: url(./assets/case1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.case2 {
+  background-image: url(./assets/case2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.case3 {
+  background-image: url(./assets/case3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.case4 {
+  background-image: url(./assets/case4.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.case5 {
+  background-image: url(./assets/case5.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay-full {
+  background-image: url(./assets/rect1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay-violet {
+  background-image: url(./assets/rect_violet.png);
+  background-position: center;
+  background-size: cover;
+  opacity: 80%;
+}
+
+.overlay-gray {
+  background-image: url(./assets/rect_gray.png);
+  background-position: center;
+  background-size: cover;
+  opacity: 80%;
+}
+
+.overlay-green {
+  background-image: url(./assets/rect_green.png);
+  background-position: center;
+  background-size: cover;
+  opacity: 80%;
+}
+
+.overlay-blue {
+  background-image: url(./assets/rect_blue.png);
+  background-position: center;
+  background-size: cover;
+  opacity: 80%;
+}
+
+.overlay-pink {
+  background-image: url(./assets/rect_pink.png);
+  background-position: center;
+  background-size: cover;
+  opacity: 80%;
 }
 
 @media screen and (max-height: 1200px) {

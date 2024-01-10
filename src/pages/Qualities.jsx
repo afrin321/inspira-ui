@@ -1,84 +1,75 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import OtherNav from '../components/OtherNav'
 import Phone from './../assets/hand_phone.png'
 import Q1 from './../assets/q1.png'
 import Q2 from './../assets/q2.png'
 import Q3 from './../assets/q3.png'
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
+import { useRef } from 'react'
 
 function Qualities() {
-  return (
-    <section id='quality' className='bg-[#E4E3DB] m-0 p-0 flex flex-col w-full h-screen'>
-      {/* <OtherNav styles='opacity-0' /> */}
-      <div className='h-full w-full m-0 flex justify-between pt-16'>
-        <div className='w-full flex flex-col pt-8 px-[8%] gap-10'>
-            <div className='flex flex-col text-4xl min-[1920px]:text-[70px] font-medium'>
-                <p className='text-[#F7073E] whitespace-nowrap leading-[67px] min-[1920px]:leading-[95px]'>CASOS QUE NOS</p>
-                <p className='text-[#F7073E] whitespace-nowrap'>SIGUEN <b>INSPIRANDO</b> </p>
-            </div>
-            <div className='flex flex-col gap-8'>
-                <div className='flex gap-4'>
-                    <img src={Q1} className='h-16 w-16' />
-                    <div className='flex flex-col gap-2 align-middle justify-around'>
-                        <p className='pl-1 font-bold text-[#A49090] text-[14px]'>Gestión de marca </p>
-                        <p className='flex gap-2'>
-                            <Link to={'/case'}>
-                                <button 
-                                className='bg-white 
-                                outline-none rounded-full px-auto whitespace-nowrap  
-                                py-2 text-[#F7073E] text-[14px] w-[180px]'>
-                                    Verificadora
-                                </button>
-                            </Link>
 
-                            <Link to={'/case'}>
-                                <button 
-                                className='bg-white 
-                                outline-none rounded-full px-auto whitespace-nowrap  
-                                py-2 text-[#F7073E] text-[14px] w-[180px]'>
-                                    Adaptation Cloud
-                                </button>
-                            </Link>
-                        </p>
-                    </div>
+  const divA = useRef(null)
+  const divB = useRef(null)
+  const divC = useRef(null)
+  const divD = useRef(null)
+
+  const [hoverElement, setHoverElement] = useState(divA)
+   
+  return (
+    <section id='quality' className='qualities m-0 p-0 flex flex-col w-full h-screen'>
+      {/* <OtherNav styles='opacity-0' /> */}
+      <div className='py-1 h-full w-full m-0 flex flex-col pt-24 px-[8%]'>
+        <div className='py-1'><span className='text-white whitespace-nowrap text-4xl'>CASOS QUE NOS SIGUEN <b>INSPIRANDO</b> </span></div>
+        <div className='flex justify-between gap-2 h-full py-2'>
+            <motion.div 
+            ref={divA}    
+            onHoverStart={() => setHoverElement(divA)}                   
+            className={`${hoverElement == divA ? 'w-[50%]' : 'w-[16%]'} h-full 
+            rounded-xl case1 p-0`}>
+              <div className='rounded-xl w-full h-full overlay-full overflow-hidden'>
+                <div 
+                className={`${hoverElement != divA && 'overlay-pink'}  rounded-xl w-full h-full overflow-hidden`}>
+                
                 </div>
-                <div className='flex gap-4'>
-                    <img src={Q2} className='h-16 w-16' />
-                    <div className='flex flex-col gap-2 align-middle justify-around'>
-                        <p className='pl-1 font-bold text-[#A49090] text-[14px]'>Comunicación gráfica para POP | OOH</p>
-                        <p className='flex gap-2'>
-                            <Link to={'/case'}>
-                                <button 
-                                className='bg-white 
-                                outline-none rounded-full px-auto whitespace-nowrap
-                                py-2 text-[#F7073E] text-[14px] w-[180px]'>
-                                    Energizer
-                                </button>
-                            </Link>
-                        </p>
-                    </div>
+              </div>
+
+            </motion.div>
+            <motion.div
+            ref={divB}            
+            onHoverStart={() => setHoverElement(divB)}
+            className={`${hoverElement == divB ? 'w-[50%]' : 'w-[16%]'} h-full 
+            rounded-xl case2 p-0`}>
+                <div className='rounded-xl w-full h-full overlay-full overflow-hidden'>
+                  <div 
+                    className={`${hoverElement != divB && 'overlay-green'}  rounded-xl w-full h-full overflow-hidden`}>
+                  
+                  </div>
                 </div>
-                <div className='flex gap-4'>
-                    <img src={Q3} className='h-16 w-16' />
-                    <div className='flex flex-col gap-2 align-middle justify-around'>
-                        <p className='pl-1 font-bold text-[#A49090] text-[14px]'>Adaptación de empaque</p>
-                        <p className='flex gap-2'>
-                            <Link to={'/case'}>
-                                <button 
-                                className='bg-white 
-                                outline-none rounded-full px-auto whitespace-nowrap  
-                                py-2 text-[#F7073E] text-[14px] w-[180px]'>
-                                    Santa Clara
-                                </button>
-                            </Link>
-                        </p>
-                    </div>
+            </motion.div>
+            <motion.div 
+            onHoverStart={() => setHoverElement(divC)}
+            className={`${hoverElement == divC ? 'w-[50%]' : 'w-[16%]'} h-full 
+            rounded-xl case3 p-0`}>
+              <div className='rounded-xl w-full h-full overlay-full overflow-hidden'>
+                <div 
+                  className={`${hoverElement != divC && 'overlay-gray'}  rounded-xl w-full h-full overflow-hidden`}>
+                
                 </div>
-            </div>
-            
-        </div>
-        <div className='w-full h-full relative'>
-            <img src={Phone} className='absolute bottom-0 h-full w-auto'/>
+              </div>
+            </motion.div>
+            <motion.div 
+            onHoverStart={() => setHoverElement(divD)}
+            className={`${hoverElement == divD ? 'w-[50%]' : 'w-[16%]'} h-full 
+            rounded-xl case5 p-0`}>
+              <div className='rounded-xl w-full h-full overlay-full overflow-hidden'>
+                <div 
+                  className={`${hoverElement != divD && 'overlay-violet'}  rounded-xl w-full h-full overflow-hidden`}>
+                
+                </div>
+              </div>
+            </motion.div>
         </div>
       </div>
     </section>
