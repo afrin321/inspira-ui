@@ -105,6 +105,9 @@ footer {
   background-size: cover;
   opacity: 80%;
 }
+.veritical {
+  writing-mode: vertical-lr;
+}
 
 @media screen and (max-height: 1200px) {
     .menu-text {
