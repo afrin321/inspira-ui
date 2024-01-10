@@ -61,7 +61,7 @@ function Qualities() {
               ref={divA}    
               onHoverStart={() => setHoverElement(divA)}                   
               className={`${hoverElement == divA ? 'w-[50%]' : 'w-[16%]'} h-full 
-              rounded-xl case1 p-0`}>
+              rounded-xl case1 p-0 transition-all`}>
                 <div className='rounded-xl w-full h-full overlay-full overflow-hidden'>
                   <div 
                     className={`${hoverElement != divA && 'overlay-pink'}  rounded-xl w-full h-full overflow-hidden`}>
@@ -73,7 +73,7 @@ function Qualities() {
               ref={divB}            
               onHoverStart={() => setHoverElement(divB)}
               className={`${hoverElement == divB ? 'w-[50%]' : 'w-[16%]'} h-full 
-              rounded-xl case2 p-0`}>
+              rounded-xl case2 p-0 transition-all`}>
                   <div className='rounded-xl w-full h-full overlay-full overflow-hidden'>
                     <div 
                       className={`${hoverElement != divB && 'overlay-green'}  rounded-xl w-full h-full overflow-hidden`}>
@@ -84,7 +84,7 @@ function Qualities() {
             <motion.div 
               onHoverStart={() => setHoverElement(divC)}
               className={`${hoverElement == divC ? 'w-[50%]' : 'w-[16%]'} h-full 
-              rounded-xl case3 p-0`}>
+              rounded-xl case3 p-0 transition-all`}>
                 <div className='rounded-xl w-full h-full overlay-full overflow-hidden'>
                   <div 
                     className={`${hoverElement != divC && 'overlay-gray'}  rounded-xl w-full h-full overflow-hidden`}>
@@ -95,7 +95,7 @@ function Qualities() {
             <motion.div 
               onHoverStart={() => setHoverElement(divD)}
               className={`${hoverElement == divD ? 'w-[50%]' : 'w-[16%]'} h-full 
-              rounded-xl case5 p-0`}>
+              rounded-xl case5 p-0 transition-all`}>
                 <div className='rounded-xl w-full h-full overlay-full overflow-hidden'>
                   <div 
                     className={`${hoverElement != divD && 'overlay-violet'}  rounded-xl w-full h-full overflow-hidden`}>

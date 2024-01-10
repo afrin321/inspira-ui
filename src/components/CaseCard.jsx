@@ -16,12 +16,12 @@ function CaseCard(props) {
 
   return (
     <div className='flex flex-col m-0 p-0 w-full h-full rounded-xl bg-transparent'>
-        <div className='h-[65%] w-full flex justify-center'>
+        <div className='h-[62%] w-full flex justify-center'>
             {
                 !isHover && <span className='veritical text-[13px] font-bold text-white mt-6'>{title}</span>
             }
         </div>
-        <div className='m-0 p-0 flex justify-between h-[35%] w-full'>
+        <div className='m-0 p-0 flex justify-between h-[38%] w-full'>
             <div className='m-0 p-0 flex pl-10 '>
                 {
                     isHover &&
