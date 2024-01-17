@@ -15,11 +15,11 @@ function Landing() {
 
   const [isVisible, setIsVisible] = useState(false)
 
-  const { scrollY } = useScroll()
+  // const { scrollYProgress } = useScroll()
 
-  useMotionValueEvent(scrollY, "change", (latest) => {
-    setIsVisible(false)
-  })
+  // useMotionValueEvent(scrollYProgress, "change", (latest) => {
+  //   console.log(scrollYProgress)
+  // })
 
 
   return (
@@ -34,7 +34,7 @@ function Landing() {
             <Team/>
             <Contact/>
           </div> 
-          <Menu/>          
+          <Menu position=''/>          
       </motion.div>
     </VisibilityContext.Provider>
   )
