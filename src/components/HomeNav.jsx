@@ -5,8 +5,9 @@ import VisibilityContext from '../context/menuVisibleContext'
 
 function HomeNav() {
   const { isVisible, setIsVisible } = useContext(VisibilityContext)
+  const stickyStyles = 'sticky top-0 left-0 z-60'
   return (
-    <nav className='flex justify-between items-center align-middle'>
+    <nav className={`flex justify-between items-center align-middle`}>
         <img src={Logo} className='h-[90px] w-auto object-scale-down' />
         <ul className='flex gap-20 list-none items-center'>
             <li className='flex gap-2 items-center text-[#ffffff] text-[22px] min-[1920px]:text-[30px] font-bold'>

@@ -28,7 +28,7 @@ function Menu(props) {
         <Link onClick={() => scrollToDiv('service')} className={`hover:underline hover:underline-offset-2 ${currentDiv == 'service' ? 'underline underline-offset-2' : ''}`}>¿QUÉ HACEMOS? </Link>
         <Link onClick={() => scrollToDiv('quality')} className={`hover:underline hover:underline-offset-2 ${currentDiv == 'quality' ? 'underline underline-offset-2' : ''}`} >CASOS QUE NOS SIGUEN INSPIRANDO </Link>
         <Link onClick={() => scrollToDiv('team')} className={`hover:underline hover:underline-offset-2 ${currentDiv == 'team' ? 'underline underline-offset-2' : ''}`}>¿QUIÉN NOS INSPIRA?</Link>
-        <Link onClick={() => scrollToDiv('contact')} className={`hover:underline hover:underline-offset-2 ${currentDiv == 'contact' ? 'underline underline-offset-2' : ''}`}>PLATIQUEMOS</Link>
+        <Link onClick={() => scrollToDiv('contact')} className={`hover:underline hover:underline-offset-2 ${currentDiv == 'contact' ? 'underline underline-offset-2' : ''}`}>PLATIQUEMOS</Link>        
     </div>
   )
 }
