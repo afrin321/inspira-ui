@@ -7,7 +7,7 @@ import VisibilityContext from '../context/menuVisibleContext'
 function Nav() {
     const { isVisible, setIsVisible, menuFlip } = useContext(VisibilityContext)
     return (
-        <div className={`top bg-nav h-fit w-full fixed top-0 left-0 z-60 px-[7.5%] flex justify-between items-center align-middle py-5`}>
+        <div className={`top bg-nav h-fit w-full fixed top-0 left-0 z-60 px-[7.5%] flex justify-between items-center align-middle ${ menuFlip ? 'py-2' : 'py-5'} `}>
             <img src={Logo} className={`${menuFlip ? 'h-[65px]' : 'h-[90px]'}  w-auto object-scale-down`} />
             <ul className='flex gap-20 list-none items-center'>
                 <li className={`flex gap-2 items-center text-[#ffffff] 'text-[30px]' font-bold`}>
