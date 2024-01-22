@@ -9,7 +9,7 @@ function Team() {
       {/* <OtherNav /> */}
       <div className='flex flex-col w-full gap-1 px-[8%] pt-16'>
         <div className='flex justify-end'>
-            <span className='text-4xl min-[1920px]:text-[70px] text-[#F7073E] leading-[67px] min-[1920px]:leading-[95px] mt-10 mb-4 font-medium'>¿QUIÉN NOS <span className='font-bold'>INSPIRA</span>? </span>
+            <span className='text-[45px] min-[1920px]:text-[70px] leading-[75px] min-[1920px]:leading-[95px] whitespace-nowrap text-[#F7073E] mt-10 mb-4 font-medium'>¿QUIÉN NOS <span className='font-bold'>INSPIRA</span>? </span>
         </div>
         <div className='h-52 flex gap-2 justify-start w-full pl-10'>
             <div className='flex justify-center gap-3 w-[48%] align-middle items-center'>

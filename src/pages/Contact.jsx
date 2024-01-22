@@ -12,7 +12,7 @@ function Contact() {
           <img src={Graphics} className='w-auto h-full relative  ' />
         </div>        
         <div className='w-full flex flex-col items-end gap-2 p-8 pt-24 px-12'>
-          <p className='text-4xl leading-[67px] font-medium text-[#F7073E] flex justify-end '>PLATIQUEMOS</p>
+          <p className='text-[45px] min-[1920px]:text-[70px] leading-[75px] min-[1920px]:leading-[95px] whitespace-nowrap font-medium text-[#F7073E] flex justify-end '>PLATIQUEMOS</p>
           <div className='flex flex-col justify-end items-end w-full gap-4'>
             <input 
             className=' w-80 xl:w-full border-[#707070] 
@@ -35,8 +35,8 @@ function Contact() {
             font-medium px-3 py-1 text-[#A49090]'
             placeholder='Dinos ¿Cómo podemos ayudarte?' />
           </div>
-          <p className='flex w-full justify-center'>
-            <button className='my-5 bg-[#ff4b72] px-10 py-2 text-white rounded-full text-18  min-[1920px]:text-[30px]'>ENVIAR</button>
+          <p className='flex w-full justify-center items-center align-middle'>
+            <button className='my-5  bg-[#ff4b72] px-10 py-2 text-white rounded-full text-18  min-[1920px]:text-[30px] min-[1920px]:leading-[50px] min-[1920px]:w-[260px]'>ENVIAR</button>
           </p>
         </div>
       </div>
