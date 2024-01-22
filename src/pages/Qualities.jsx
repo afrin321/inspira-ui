@@ -64,7 +64,7 @@ function Qualities() {
               rounded-xl case1 p-0 transition-all`}>
                 <div className='rounded-xl w-full h-full overlay-full overflow-hidden'>
                   <div 
-                    className={`${hoverElement != divA && 'overlay-pink'}  rounded-xl w-full h-full overflow-hidden`}>
+                    className={`${hoverElement != divA && 'overlay-pink'} rounded-xl w-full h-full overflow-hidden`}>
                       <CaseCard data={dataMap.get(divA)}/>
                   </div>
                 </div>
