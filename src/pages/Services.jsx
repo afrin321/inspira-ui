@@ -1,7 +1,7 @@
 import React from 'react'
 import OtherNav from '../components/OtherNav'
 import Img1 from './../assets/services_1.png'
-import Img2 from './../assets/services_2.png'
+import Img2 from './../assets/s2.png'
 
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { useRef } from 'react'
@@ -40,7 +40,7 @@ const rotate = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['rotate(45de
             
             <div className='h-full flex justify-between pt-16 pl-0 ml-0'>
                 <img src={Img1} className='h-screen z-[5]  left-0 pl-0 ml-0' />
-                <motion.img style={{ transform: rotate }} src={Img2} className='h-[80%] z-[4] absolute bottom-1 left-[23%] min-[800px]:max-[1280px]:left-[15%] mb-1' />
+                <motion.img style={{ transform: rotate }} src={Img2} className='h-[80%] z-[4] absolute bottom-0 origin-[46%_46%] left-[23%] min-[800px]:max-[1280px]:left-[15%] mb-0' />
                 <div 
                 className='bg-transparent max-[1390px]:w-[40%] min-[1400px]:max-[1700px]:w-[30%] 2xl:w-[25%]
                 flex flex-col justify-start relative gap-6'>
