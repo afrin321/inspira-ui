@@ -13,13 +13,13 @@ function Home(props) {
             <motion.div className='h-full w-[55%] relative p-0 m-0' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1, duration:2 }} >
                 <img src={Gp1} className='h-full absolute bottom-0' />
             </motion.div>
-            <div className='h-full w-[45%] flex flex-col justify-start items-start'>
-                <p className='flex flex-col justify-start p-0 m-0 text-[40px] leading-[51px] min-[1920px]:leading-[91px] min-[1920px]:text-[81px] font-extrabold text-white'>
-                    <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 2, duration:1 }}>EMBRACING</motion.span> <br/>
-                    <motion.span initial={{ opacity: 0 }} animate={{ opacity: 2 }} transition={{ delay: 3.5, duration:1 }}>YOUR</motion.span> <br/>
-                    <motion.span initial={{ opacity: 0 }} animate={{ opacity: 3 }} transition={{ delay: 5, duration:1 }}>BRAND</motion.span>
+            <div className='p-0 m-0  h-full w-[45%] flex flex-col justify-start items-start'>
+                <p className='p-0 m-0 text-[40px] leading-[55px] min-[1920px]:leading-[91px] min-[1920px]:text-[81px] font-bold text-white'>
+                    <motion.span className='p-0 m-0' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 2, duration:1 }}>EMBRACING</motion.span> <br/>
+                    <motion.span className='p-0 m-0' initial={{ opacity: 0 }} animate={{ opacity: 2 }} transition={{ delay: 3.5, duration:1 }}>YOUR</motion.span> <br/>
+                    <motion.span className='p-0 m-0' initial={{ opacity: 0 }} animate={{ opacity: 3 }} transition={{ delay: 5, duration:1 }}>BRAND</motion.span>
                 </p>
-                <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 6.5, duration: 1 }} className='text-white font-medium text-[22px] min-[1920px]:text-[30px] leading-[40px] min-[1920px]:leading-[50px] mt-5'>
+                <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 6.5, duration: 1 }} className='text-white font-medium text-[22px] min-[1920px]:text-[30px] leading-[40px] min-[1920px]:leading-[50px] mt-10'>
                     Soluciones en comunicación gráfica <br/>
                     y gestión de marca para procesos <br/>
                     de etiquetado.
