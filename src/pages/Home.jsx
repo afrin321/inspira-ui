@@ -13,8 +13,8 @@ function Home(props) {
             <motion.div className='h-full w-[55%] relative p-0 m-0' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1, duration:2 }} >
                 <img src={Gp1} className='h-full absolute bottom-0' />
             </motion.div>
-            <div className='p-0 m-0  h-full w-[45%] flex flex-col justify-start items-start'>
-                <p className='p-0 m-0 text-[40px] leading-[55px] min-[1920px]:leading-[91px] min-[1920px]:text-[81px] font-bold text-white'>
+            <div className='p-0 m-0  h-full w-[45%] flex flex-col justify-start items-start min-[1920px]:mt-[-25px]'>
+                <p className='p-0 m-0 text-[40px] leading-[55px] min-[1920px]:leading-[110px] min-[1920px]:text-[81px] font-bold text-white'>
                     <motion.span className='p-0 m-0' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 2, duration:1 }}>EMBRACING</motion.span> <br/>
                     <motion.span className='p-0 m-0' initial={{ opacity: 0 }} animate={{ opacity: 2 }} transition={{ delay: 3.5, duration:1 }}>YOUR</motion.span> <br/>
                     <motion.span className='p-0 m-0' initial={{ opacity: 0 }} animate={{ opacity: 3 }} transition={{ delay: 5, duration:1 }}>BRAND</motion.span>
@@ -24,7 +24,7 @@ function Home(props) {
                     y gestión de marca para procesos <br/>
                     de etiquetado.
                 </motion.p>
-                <motion.button initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 8, duration:0.5 }}  className='min-[1920px]:h-[72px] min-[1920px]:w-[260px] font-medium leading-[40px] min-[1920px]:leading-[50px] text-[20px] min-[1920px]:text-[30px] bg-white rounded-full px-10 py-2  text-[#F7063E] my-auto'>Get started</motion.button>
+                <motion.button initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 8, duration:0.5 }}  className='min-[1920px]:h-[72px] min-[1920px]:w-[260px] leading-[40px] min-[1920px]:leading-[50px] text-[20px] min-[1920px]:text-[30px] bg-white rounded-full px-10 py-2  text-[#F7063E] my-auto font-semibold'>Get started</motion.button>
             </div>
         </div>
     </section>

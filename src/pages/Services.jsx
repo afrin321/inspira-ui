@@ -19,12 +19,12 @@ const rotate = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['rotate(45de
 
     
     const firstIconOpacity = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['100%', '40%', '0%', '0%'])
-    const firstIconTranslateY = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['0%', '-35vh', '-30vh', '-40vh'])
+    const firstIconTranslateY = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['0%', '-40vh', '-30vh', '-40vh'])
     const firstIconDisplay = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['block', 'block', 'none', 'none'])
 
     const secondIconOpacity = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['40%', '100%', '40%', '0%'])
     // const secondIconTranslateY = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['-5vh', '-35vh', '-60vh', '-70vh'])
-    const secondIconTranslateY = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['-0vh', '-35vh', '-60vh', '-70vh'])
+    const secondIconTranslateY = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['0vh', '-35vh', '-60vh', '-70vh'])
     const secondIconDisplay = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['block', 'block', 'block', 'block'])
 
     const thirdIconOpacity = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['0%', '40%', '100%', '40%'])
