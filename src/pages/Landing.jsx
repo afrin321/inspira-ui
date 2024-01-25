@@ -11,11 +11,15 @@ import Nav from './../components/Nav'
 import VisibilityContext from './../context/menuVisibleContext'
 import { motion, useMotionValueEvent, useScroll } from 'framer-motion'
 import { useRef } from 'react'
+import Popup from '../components/Popup'
 
 function Landing() {
 
   const [isVisible, setIsVisible] = useState(false)
   const [menuFlip, setMenuFlip] = useState(false)
+  const [popupVisible, setPopupVisible] = useState(false)
+  const [popup, setPopup] = useState(null)
+
 
   const targetRef = useRef
 
@@ -32,7 +36,7 @@ function Landing() {
 
 
   return (
-    <VisibilityContext.Provider value={{ isVisible, setIsVisible, menuFlip }}>
+    <VisibilityContext.Provider value={{ isVisible, setIsVisible, menuFlip, popupVisible, setPopupVisible, popup, setPopup }}>
       <motion.div className='w-full h-auto relative'>
           {/* <Home/>      */}
           <Nav/>
@@ -46,7 +50,8 @@ function Landing() {
             <Team/>
             <Contact/>
           </div> 
-          <Menu position=''/>          
+          <Menu position=''/>    
+          { popupVisible && <Popup/> }    
       </motion.div>
     </VisibilityContext.Provider>
   )

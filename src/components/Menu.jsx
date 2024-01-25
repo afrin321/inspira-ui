@@ -22,7 +22,7 @@ function Menu(props) {
   
 
   return (
-    isVisible && <div className='menu-open fixed top-24 right-16 font-semibold p-6 w-auto h-auto bg-slate-100 z-60 flex flex-col gap-2 text-[#F7073E]'>       
+    isVisible && <div className='menu-open fixed top-32 right-16 font-semibold p-6 w-auto h-auto bg-slate-100 z-60 flex flex-col gap-2 text-[#F7073E]'>       
         <Link onClick={() => scrollToDiv('home')} className={`hover:underline hover:underline-offset-2 ${currentDiv == 'home' ? 'underline underline-offset-2' : ''}`}>HOME </Link>
         <Link onClick={() => scrollToDiv('about')} className={`hover:underline hover:underline-offset-2 ${currentDiv == 'about' ? 'underline underline-offset-2' : ''}`}>¿QUÉ NOS INSPIRA?</Link>
         <Link onClick={() => scrollToDiv('service')} className={`hover:underline hover:underline-offset-2 ${currentDiv == 'service' ? 'underline underline-offset-2' : ''}`}>¿QUÉ HACEMOS? </Link>

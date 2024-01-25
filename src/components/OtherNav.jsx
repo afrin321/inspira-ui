@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from './../assets/inspira_logo.png'
+import Logo from './../assets/new_logo.png'
 import Menu from './../assets/burger_menu.png'
 import VisibilityContext from '../context/menuVisibleContext'
 import { useContext } from 'react'
