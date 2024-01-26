@@ -20,7 +20,7 @@ function Team() {
                 </div>
             </div>
         </div>
-        <div className='h-52 flex gap-2 justify-end w-[90%]'>
+        <div className='h-52 flex gap-2 justify-end w-[90%] mb-5'>
             <div className='flex justify-end align-middle items-center w-[52%] gap-3'>
                 <img src={Person2} className='h-52 w-auto'/>
                 <div className='flex flex-col gap-2 py-auto text-[14px] min-[1920px]:text-[28px] leading-[24px] min-[1920px]:leading-[40px]'>
