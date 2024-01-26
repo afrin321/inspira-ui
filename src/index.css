@@ -19,8 +19,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .qualities {
-  background-image: url('./assets/bg2.jpg');
+  background-image: url('./assets/bg_2.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -446,3 +447,13 @@ footer {
   font-weight: 500;
   margin-top: 0.75rem;
 }
+
+
+.case1-gradient {
+  background-image: url(./assets/gradient1.png);
+}
+
+.case2-gradient {
+  background-image: url(./assets/gradient2.png);
+}
+
