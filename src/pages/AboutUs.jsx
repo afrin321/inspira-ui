@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 function AboutUs() {
   return (
-    <section id='about' className='bg-[#E4E3DB] m-0 p-0 flex flex-col w-full h-screen pt-[10%] px-[7.5%]'>
+    <section id='about' className='bg-[#E4E3DB] m-0 p-0 flex flex-col w-full h-screen pt-[8%] px-[7.5%]'>
       {/* <OtherNav /> */}
       {/* <div className='w-full grid grid-cols-12 gap-2'>
         <div className='col-span-6'>
@@ -54,7 +54,7 @@ function AboutUs() {
             </p>
           </motion.div>
         </div>
-        <div className='w-full relative p-0 m-0 pt-10 flex justify-end'>
+        <div className='w-full h-auto relative p-0 m-0 pt-0 flex justify-end'>
           <motion.img 
           initial={{
             translateX: '50vh'
@@ -65,7 +65,7 @@ function AboutUs() {
           transition={{
             duration: 2,
           }}
-          src={Gp2} className='w-full absolute bottom-0 h-full' />
+          src={Gp2} className='w-full absolute bottom-0 max-w-[800px] h-[105%] ' />
         </div>
       </div>
     </section>

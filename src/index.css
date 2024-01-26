@@ -493,7 +493,7 @@ footer {
   background-color: rgb(0, 0, 0, 0.5);
 }
 
-#about > div > div.w-full.relative.p-0.m-0.pt-10.flex.justify-end > img {
+/* #about > div > div.w-full.relative.p-0.m-0.pt-10.flex.justify-end > img {
   height: auto;
   max-width: 800px !important;
   width: 770px;
@@ -501,4 +501,4 @@ footer {
 
 #about {
   padding-top: 0;
-}
+} */
