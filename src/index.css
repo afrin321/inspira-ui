@@ -502,3 +502,45 @@ footer {
 #about {
   padding-top: 0;
 } */
+
+#root > div > div > nav > ul {
+  margin-right: 3rem;
+}
+
+#home
+  > div
+  > div.col-span-4.w-full.h-full.p-0.m-0.flex.flex-col.justify-start.items-start
+  > div.w-full.h-\[242px\].p-0.m-0.flex.flex-col.text-\[70px\].font-bold.leading-\[45px\].text-white {
+  font-size: 81px;
+}
+
+#home > div > div.h-auto.col-span-5.p-0.m-0 > img {
+  left: 4.7rem;
+}
+
+#home
+  > div
+  > div.col-span-4.w-full.h-full.p-0.m-0.flex.flex-col.justify-start.items-start {
+  width: 35rem;
+}
+
+#home > div > div.h-auto.col-span-5.p-0.m-0 > img {
+  bottom: -0.75rem;
+}
+
+#home {
+  padding-top: 20rem;
+}
+
+#home
+  > div
+  > div.col-span-4.w-full.h-full.p-0.m-0.flex.flex-col.justify-start.items-start
+  > div.w-full.h-\[121px\].flex.items-end {
+  height: 5rem;
+}
+
+#home
+  > div
+  > div.col-span-4.w-full.h-full.p-0.m-0.flex.flex-col.justify-start.items-start {
+  margin-left: 7rem;
+}
