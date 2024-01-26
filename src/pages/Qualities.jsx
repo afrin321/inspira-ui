@@ -22,28 +22,28 @@ function Qualities() {
   dataMap.set(divA, {
     img: '1',
     title: 'VERIFICADORA | Coca-Cola',
-    description: 'Los 2 embotelladores más grandes del sistema Coca-Cola en México, FEMSA y ARCA Continental, son los …',
+    description: 'Los 2 embotelladores más grandes del sistema Coca-Cola …',
     isHover: hoverElement == divA
    })
 
    dataMap.set(divB, {
     img: '2',
     title: 'Adaptación de empaque',
-    description: 'Los 2 embotelladores más grandes del sistema Coca-Cola en México (FEMSA y ARCA Continental), son los …',
+    description: 'Ante el gran reto que ha representado la economía global post pandemia, Coca-Cola …',
     isHover: hoverElement == divB
    })
 
    dataMap.set(divC, {
     img: '3',
     title: 'Comunicación gráfica para POP | OOH',
-    description: 'Los 2 embotelladores más grandes del sistema Coca-Cola en México (FEMSA y ARCA Continental), son los …',
+    description: 'Energizer Holdings, Inc. con sede en St. Louis Missouri USA, es uno de los mayores …',
     isHover: hoverElement == divC
    })
 
    dataMap.set(divD, {
     img: '4',
     title: 'Gestión de marca ',
-    description: 'Los 2 embotelladores más grandes del sistema Coca-Cola en México (FEMSA y ARCA Continental), son los …',
+    description: 'Los 2 embotelladores más grandes del sistema Coca-Cola en México (FEMSA y ARCA …',
     isHover: hoverElement == divD
    })
 
