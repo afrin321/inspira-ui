@@ -544,3 +544,7 @@ footer {
   > div.col-span-4.w-full.h-full.p-0.m-0.flex.flex-col.justify-start.items-start {
   margin-left: 7rem;
 }
+
+#root > div > div > nav {
+  height: 10rem;
+}
