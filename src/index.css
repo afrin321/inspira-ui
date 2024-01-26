@@ -546,5 +546,20 @@ footer {
 }
 
 #root > div > div > nav {
-  height: 10rem;
+  height: 8rem;
+}
+
+#about > div > div.w-full.h-auto.relative.p-0.m-0.pt-0.flex.justify-end > img {
+  width: 100%;
+  height: 100%;
+}
+
+#about > div > div.flex.flex-col.justify-start.gap-0.h-fit.w-full > span {
+  margin-top: 3.75rem;
+  margin-bottom: 3.25rem;
+}
+
+#about > div {
+  padding-left: 0.2rem;
+  padding-right: 5rem;
 }
