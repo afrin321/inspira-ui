@@ -27,7 +27,7 @@ function Home(props) {
                     </motion.p>
                 </div>
                 <div className='w-full h-[121px] flex items-end'>
-                    <motion.button initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 8, duration:0.5 }}  className=' bg-white rounded-full text-[#F7063E] h-[72px] w-[260px] text-[30px] leading-[50px]'>Get started</motion.button>
+                    <motion.button initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 8, duration:0.5 }}  className=' bg-white font-semibold rounded-full text-[#F7063E] h-[72px] w-[260px] text-[30px] leading-[50px]'>Get started</motion.button>
                 </div>
                 
             </div>

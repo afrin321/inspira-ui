@@ -10,7 +10,7 @@ function CaseScreen2() {
     
   return (
     <div className='w-full h-auto relative'>
-        <img src={cs1} className='absolute top-[122px]' />
+        <img src={cs1} className='absolute top-[110px]' />
         <div className='case2-gradient h-[1111px] w-full absolute top-[360px] flex flex-col items-center pt-[15%] '>
             <span className='text-white text-[70px] font-medium leading-[95px]'>VERIFICADORA | Coca-Cola</span>
             <div className='w-full px-[7.5%] grid grid-cols-12 gap-1 mt-[7%]'>

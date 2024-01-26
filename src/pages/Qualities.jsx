@@ -21,8 +21,8 @@ function Qualities() {
   const dataMap = new Map() 
   dataMap.set(divA, {
     img: '1',
-    title: 'Gestión de marca',
-    description: 'Los 2 embotelladores más grandes del sistema Coca-Cola en México (FEMSA y ARCA Continental), son los …',
+    title: 'VERIFICADORA | Coca-Cola',
+    description: 'Los 2 embotelladores más grandes del sistema Coca-Cola en México, FEMSA y ARCA Continental, son los …',
     isHover: hoverElement == divA
    })
 
