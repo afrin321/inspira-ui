@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 function Home(props) {
   return (
-<section
+    <section
       id="home"
       className={`w-full relative h-screen home px-[7.5%] flex flex-col gap-20 pt-[329px] pb-0 m-0 overflow-hidden`}
     >
@@ -17,9 +17,9 @@ function Home(props) {
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 2 }}
         >
-          <img src={Gp1} className="h-auto w-auto absolute left-[118px] bottom-20" />
+          <img src={Gp1} className="h-auto w-auto absolute left-[118px]" />
         </motion.div>
-        <div className="col-span-4 w-full h-full p-0 m-0 flex flex-col justify-start items-start absolute top-[20vh] left-[87vh]">
+        <div className="col-span-4 w-full h-full p-0 m-0 flex flex-col justify-start items-start">
           <div className="w-full h-[242px] p-0 m-0 flex flex-col text-[70px] font-bold leading-[45px] text-white">
             <motion.span
               className="p-0 m-0"
