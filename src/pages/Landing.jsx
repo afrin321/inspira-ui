@@ -12,6 +12,7 @@ import VisibilityContext from './../context/menuVisibleContext'
 import { motion, useMotionValueEvent, useScroll } from 'framer-motion'
 import { useRef } from 'react'
 import Popup from '../components/Popup'
+import Footer from '../components/Footer'
 
 function Landing() {
 
@@ -49,6 +50,7 @@ function Landing() {
             <Qualities/>
             <Team/>
             <Contact/>
+            <Footer/>
           </div> 
           <Menu position=''/>    
           { popupVisible && <Popup/> }    
