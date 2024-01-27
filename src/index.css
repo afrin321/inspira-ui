@@ -77,7 +77,7 @@ footer {
 }
 
 .case5 {
-  background-image: url(./assets/case5.png);
+  background-image: url(./assets/santa-clara.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -443,7 +443,7 @@ footer {
 }
 
 #team > div > div.h-52.flex.gap-2.justify-end.w-\[90\%\] {
-  margin-left: 17.5rem;
+  margin-left: 15rem;
 }
 
 #contact > footer {
@@ -565,7 +565,212 @@ footer {
 }
 
 #about > div > div.w-full.h-auto.relative.p-0.m-0.pt-0.flex.justify-end > img {
-  bottom: 2.25rem;
-  right: 2.25rem;
+  bottom: 0rem;
+  right: -1.5rem;
   /* z-index: 999; */
+}
+
+#about > div > div.flex.flex-col.justify-around.gap-0.h-fit.w-full.gap-10 {
+  margin-top: 4rem;
+}
+
+#about
+  > div
+  > div.flex.flex-col.justify-around.gap-0.h-fit.w-full.gap-10
+  > div
+  p {
+  font-weight: 500;
+  text-align: justify;
+}
+
+#service
+  > div
+  > div
+  > div
+  > div.sticky.r-0.w-auto.flex.flex-col.items-end.px-20.pt-10.gap-1 {
+  padding-bottom: 5rem;
+}
+
+.ojo {
+  top: -12.5rem !important;
+}
+
+.gestion {
+  top: 31rem !important;
+}
+
+.imagenchida {
+  top: 39rem !important;
+}
+
+.comunicacion {
+  top: 50rem !important;
+}
+
+#team > div > div.h-52.flex.gap-2.justify-start.w-full.pl-10 {
+  padding-left: 3rem;
+}
+
+#contact > div > div.w-\[50\%\].relative > img {
+  width: 100%;
+  height: auto;
+}
+#contact
+  > div
+  > div.h-fit.w-\[50\%\].flex.flex-col.justify-start.items-end.gap-1.mt-\[5\%\].min-\[1920px\]\:mt-\[12\%\].mr-\[7\.5\%\] {
+  margin-top: 11rem;
+}
+#contact
+  > div
+  > div.h-fit.w-\[50\%\].flex.flex-col.justify-start.items-end.gap-1.mt-\[5\%\].min-\[1920px\]\:mt-\[12\%\].mr-\[7\.5\%\]
+  > p.my-5.text-\[45px\].min-\[1920px\]\:text-\[70px\].leading-\[75px\].min-\[1920px\]\:leading-\[95px\].whitespace-nowrap.font-medium.text-\[\#F7073E\].flex.justify-end {
+  margin-bottom: 2rem;
+}
+
+#contact
+  > div
+  > div.h-fit.w-\[50\%\].flex.flex-col.justify-start.items-end.gap-1.mt-\[5\%\].min-\[1920px\]\:mt-\[12\%\].mr-\[7\.5\%\]
+  > div {
+  width: 90%;
+}
+
+#contact
+  > div
+  > div.h-fit.w-\[50\%\].flex.flex-col.justify-start.items-end.gap-1.mt-\[5\%\].min-\[1920px\]\:mt-\[12\%\].mr-\[7\.5\%\]
+  > div
+  input {
+  padding: 0.75rem 1rem !important;
+  border: 1px solid #707070;
+  font-weight: 500;
+  color: #a49090;
+  font-size: 28px;
+}
+
+#contact
+  > div
+  > div.h-fit.w-\[50\%\].flex.flex-col.justify-start.items-end.gap-1.mt-\[5\%\].min-\[1920px\]\:mt-\[12\%\].mr-\[7\.5\%\]
+  > p.flex.w-full.justify-center.items-center.min-\[1920px\]\:items-end.align-middle
+  > button {
+  margin-left: 5rem;
+}
+
+#root
+  > div
+  > div
+  > div.overlay.popup.w-screen.h-screen.fixed.top-0.left-0.py-\[4\%\].px-\[8\%\]
+  > div
+  span {
+  padding-left: 0 !important;
+}
+
+#root
+  > div
+  > div
+  > div.overlay.popup.w-screen.h-screen.fixed.top-0.left-0.py-\[4\%\].px-\[8\%\]
+  > div
+  > div
+  > div
+  > div
+  > div.w-full.px-\[7\.5\%\].grid.grid-cols-12.gap-1.mt-\[7\%\]
+  > div.col-span-6.flex.flex-col.items-center.justify-center,
+#root
+  > div
+  > div
+  > div.overlay.popup.w-screen.h-screen.fixed.top-0.left-0.py-\[4\%\].px-\[8\%\]
+  > div
+  > div
+  > div
+  > div
+  > div.mt-\[200px\].mb-\[100px\].w-full.h-auto.px-\[7\.5\%\].grid.grid-cols-12.gap-3
+  > div.col-span-6.flex.align-middle.items-center.justify-center {
+  justify-content: end;
+}
+#root
+  > div
+  > div
+  > div.overlay.popup.w-screen.h-screen.fixed.top-0.left-0.py-\[4\%\].px-\[8\%\]
+  > div
+  p {
+  font-size: 22px;
+  text-align: justify;
+}
+
+#root
+  > div
+  > div
+  > div.overlay.popup.w-screen.h-screen.fixed.top-0.left-0.py-\[4\%\].px-\[8\%\]
+  > div
+  > div
+  > div
+  > div
+  > div.mt-\[200px\].mb-\[100px\].w-full.h-auto.px-\[7\.5\%\].grid.grid-cols-12.gap-3 {
+  padding-top: 2rem;
+}
+
+#root
+  > div
+  > div
+  > div.overlay.popup.w-screen.h-screen.fixed.top-0.left-0.py-\[4\%\].px-\[8\%\]
+  > div
+  img {
+  align-self: end;
+}
+
+#quality
+  > div
+  > div.flex.justify-between.gap-2.h-full.py-2
+  > div.w-\[50\%\].h-full.rounded-xl.case1.p-0.transition-all
+  > div
+  > div
+  > div
+  > div.m-0.p-0.flex.justify-between.h-\[38\%\].w-full
+  > div.m-0.p-0.flex.pl-10
+  > div
+  > p.text-white.font-bold.text-xl.min-\[1920px\]\:text-\[40px\].min-\[1920px\]\:leading-\[40px\],
+#quality
+  > div
+  > div.flex.justify-between.gap-2.h-full.py-2
+  > div.w-\[50\%\].h-full.rounded-xl.case2.p-0.transition-all
+  > div
+  > div
+  > div
+  > div.m-0.p-0.flex.justify-between.h-\[38\%\].w-full
+  > div.m-0.p-0.flex.pl-10
+  > div
+  > p.text-white.font-bold.text-xl.min-\[1920px\]\:text-\[40px\].min-\[1920px\]\:leading-\[40px\],
+#quality
+  > div
+  > div.flex.justify-between.gap-2.h-full.py-2
+  > div.w-\[50\%\].h-full.rounded-xl.case3.p-0.transition-all
+  > div
+  > div
+  > div
+  > div.m-0.p-0.flex.justify-between.h-\[38\%\].w-full
+  > div.m-0.p-0.flex.pl-10
+  > div
+  > p.text-white.font-bold.text-xl.min-\[1920px\]\:text-\[40px\].min-\[1920px\]\:leading-\[40px\],
+#quality
+  > div
+  > div.flex.justify-between.gap-2.h-full.py-2
+  > div.w-\[50\%\].h-full.rounded-xl.case5.p-0.transition-all
+  > div
+  > div
+  > div
+  > div.m-0.p-0.flex.justify-between.h-\[38\%\].w-full
+  > div.m-0.p-0.flex.pl-10
+  > div
+  > p.text-white.font-bold.text-xl.min-\[1920px\]\:text-\[40px\].min-\[1920px\]\:leading-\[40px\] {
+  line-height: 50px;
+}
+
+#root
+  > div
+  > div
+  > div.overlay.popup.w-screen.h-screen.fixed.top-0.left-0.py-\[4\%\].px-\[8\%\]
+  > div
+  > div
+  > div
+  > div
+  > span {
+  text-align: center;
 }
