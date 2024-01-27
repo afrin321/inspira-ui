@@ -19,12 +19,12 @@ const rotate = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['rotate(45de
 
     
     const firstIconOpacity = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['100%', '40%', '0%', '0%'])
-    const firstIconTranslateY = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['0%', '-40vh', '-30vh', '-40vh'])
+    const firstIconTranslateY = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['0%', '-50vh', '-30vh', '-40vh'])
     const firstIconDisplay = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['block', 'block', 'none', 'none'])
 
     const secondIconOpacity = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['40%', '100%', '40%', '0%'])
     // const secondIconTranslateY = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['-5vh', '-35vh', '-60vh', '-70vh'])
-    const secondIconTranslateY = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['0vh', '-35vh', '-60vh', '-70vh'])
+    const secondIconTranslateY = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['10vh', '-35vh', '-60vh', '-70vh'])
     const secondIconDisplay = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['block', 'block', 'block', 'block'])
 
     const thirdIconOpacity = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['0%', '40%', '100%', '40%'])
@@ -51,15 +51,15 @@ const rotate = useTransform(scrollYProgress, [0.2, 0.3, 0.5, 0.7], ['rotate(45de
                     </div>
                     <div 
                     className='h-[55vh] w-full 
-                    overflow-hidden
-                    relative'>
+                    overflow-hidden 
+                    relative mt-[100px]'>
                         <motion.div 
                         style={{
                             opacity: firstIconOpacity, 
                             translateY: firstIconTranslateY,
                             display: firstIconDisplay
                         }} 
-                        className={`w-full flex flex-col px-20 min-[1920px]:px-10 gap-2 whitespace-pre-wrap absolute max-[1390px]:top-[15%] min-[1400px]:top-[40%] 2xl:top-[40%]`}>
+                        className={`w-full flex flex-col px-20 min-[1920px]:px-10 gap-2 whitespace-pre-wrap absolute max-[1390px]:top-[15%] min-[1400px]:top-[40%] 2xl:top-[30%]`}>
                             <p className='font-bold text-[#FF6F1F] text-md  min-[1920px]:text-[28px] min-[1920px]:leading-[40px]'>COORDINACIÓN FOTOGRÁFICA</p>
                             
                             <p className='text-[#A49090] font-medium text-md whitespace-normal min-[1920px]:text-[28px] min-[1920px]:leading-[40px]'>
