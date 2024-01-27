@@ -40,7 +40,7 @@ function Contact() {
           </p>
         </div>
       </div>
-      <Footer/>
+      
     </section>
   )
 }
