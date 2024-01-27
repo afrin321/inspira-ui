@@ -536,7 +536,7 @@ footer {
   > div
   > div.col-span-4.w-full.h-full.p-0.m-0.flex.flex-col.justify-start.items-start
   > div.w-full.h-\[121px\].flex.items-end {
-  height: 5rem;
+  height: 8rem;
 }
 
 #home
@@ -564,8 +564,8 @@ footer {
   padding-right: 8rem;
 }
 
-#about > div > div.w-full.h-auto.relative.p-0.m-0.pt-0.flex.justify-end > img {
+/* #about > div > div.w-full.h-auto.relative.p-0.m-0.pt-0.flex.justify-end > img {
   bottom: 2.25rem;
   right: 2.25rem;
   z-index: 999;
-}
+} */
