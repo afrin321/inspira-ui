@@ -1,20 +1,23 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import cs1 from './../../assets/lime1.png'
 import cs2 from './../../assets/lime2.png'
 import cs3 from './../../assets/lime3.png'
 import cs4 from './../../assets/lime4.png'
 import CaseFooter from '../CaseFooter'
+import VisibilityContext from './../../context/menuVisibleContext'
 
 function CaseScreen2() {
+  const { setPopupVisible } = useContext(VisibilityContext)
   return (
     <div className="w-full h-auto relative">
+      <div onClick={() => setPopupVisible(false)} className='w-[50px] h-[50px] bg-gray-300 text-gray-700 rounded-full border-4 border-gray-100 p-auto flex justify-center items-center font-semibold absolute right-5 top-5 popup_close'>X</div>
       <img src={cs1} className="absolute top-0" />
-      <div className="case2-gradient h-[1111px] w-full absolute top-[360px] flex flex-col items-center pt-[15%] ">
+      <div className="case2-gradient h-[1311px] w-full absolute top-[360px] flex flex-col items-center pt-[15%] ">
         <span className="text-white text-[70px] font-medium leading-[95px]">
           <em>ADAPTATION CLOUD</em> <br /> LATAM Coca-Cola Brands
         </span>
         <div className="w-full px-[7.5%] grid grid-cols-12 gap-1 mt-[7%]">
-          <div className="col-span-6 flex flex-col gap-5">
+          <div className="col-span-6 flex flex-col gap-5 pr-5">
             <span className="text-white text-[70px] font-medium leading-[95px] px-[40px]">
               CONTEXTO
             </span>
@@ -24,7 +27,7 @@ function CaseScreen2() {
               septiembre de 2021 con el objetivo de buscar economías de escala
               que resultaran en una mayor <b>productividad y eficiencia</b>.
             </p>
-            <p>
+            <p className="text-white">
               Lo anterior tuvo dos grandes implicaciones: La simplificación de{' '}
               <b>3 a 1 sola área</b> involucrada en la gestión de proyectos de
               etiquetado del total del portafolios, llamada <b>“Frontline”</b> y
@@ -100,7 +103,7 @@ function CaseScreen2() {
           </div>
         </div>
         <img src={cs4} className="h-auto w-full" />
-        <CaseFooter />
+        {/* <CaseFooter /> */}
       </div>
     </div>
   )

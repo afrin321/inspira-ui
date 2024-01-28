@@ -4,6 +4,7 @@ import Footer from './Footer'
 import CaseScreen1 from './CaseScreens/CaseScreen1'
 import CaseScreen2 from './CaseScreens/CaseScreen2'
 import CaseScreen3 from './CaseScreens/CaseScreen3'
+import CaseScreen4 from './CaseScreens/CaseScreen4'
 import CaseFooter from './CaseFooter'
 import VisibilityContext from '../context/menuVisibleContext'
 
@@ -21,6 +22,7 @@ function Popup() {
                 {popup == '1' && <CaseScreen1/>}
                 {popup == '2' && <CaseScreen2/>}
                 {popup == '3' && <CaseScreen3/>}
+                {popup == '4' && <CaseScreen4/>}
                 {/* <CaseFooter/> */}
             </div>
             
