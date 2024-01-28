@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useContext } from 'react'
 import OtherNav from '../components/OtherNav'
 import Phone from './../assets/hand_phone.png'
 import Q1 from './../assets/q1.png'
@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useRef } from 'react'
 import CaseCard from '../components/CaseCard'
+import VisibilityContext from './../context/menuVisibleContext'
 
 function Qualities() {
   const divA = useRef(null)
@@ -16,6 +17,7 @@ function Qualities() {
   const divD = useRef(null)
 
   const [hoverElement, setHoverElement] = useState(divA)
+  const { popupVisible } = useContext(VisibilityContext)
 
   const dataMap = new Map()
   dataMap.set(divA, {
@@ -51,7 +53,7 @@ function Qualities() {
   return (
     <section
       id="quality"
-      className="qualities m-0 p-0 flex flex-col w-full h-screen"
+      className={`qualities m-0 p-0 flex flex-col w-full h-screen ${popupVisible ? 'fixed top-0 left-0 overflow-hidden' : ''}`}
     >
       {/* <OtherNav styles='opacity-0' /> */}
       <div className="py-1 h-full w-full m-0 flex flex-col pt-24 px-[8%]">

@@ -1,16 +1,17 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import cs1 from './../../assets/cola1.png'
 import cs2 from './../../assets/cola2.png'
 import cs3 from './../../assets/cola3.png'
 import cs4 from './../../assets/cola4.png'
 import cs5 from './../../assets/cola5.png'
-import Footer from '../Footer'
-import CaseFooter from '../CaseFooter'
+import VisibilityContext from './../../context/menuVisibleContext'
 
 function CaseScreen1() {
+  const { isVisible, setIsVisible, menuFlip, setPopupVisible } = useContext(VisibilityContext)
   return (
     <div className="w-full h-auto relative">
-      <img src={cs1} className="absolute top-[110px]" />
+      <div onClick={() => setPopupVisible(false)} className='w-[50px] h-[50px] bg-gray-300 text-gray-700 rounded-full border-4 border-gray-100 p-auto flex justify-center items-center font-semibold absolute right-5 top-5 popup_close'>X</div>
+      <img src={cs1} className="absolute top-0" />
       <div className="case1-gradient h-[1111px] w-full absolute top-[360px] flex flex-col items-center pt-[15%] ">
         <span className="text-white text-[70px] font-medium leading-[95px]">
           VERIFICADORA | Coca-Cola
@@ -108,7 +109,7 @@ function CaseScreen1() {
             </p>
           </div>
         </div>
-        <CaseFooter />
+        {/* <CaseFooter /> */}
       </div>
     </div>
   )

@@ -46,7 +46,7 @@ function AboutUs() {
           <motion.span
             initial={{ opacity: '0%' }}
             whileInView={{ opacity: '100%' }}
-            transition={{ delay: 2, duration: 1 }}
+            transition={{ delay: 0, duration: 1 }}
             className="text-[#F7073E] text-[70px] leading-[110px] whitespace-nowrap my-0"
           >
             ¿QUÉ NOS <b className="font-bold">INSPIRA</b>?{' '}
@@ -54,7 +54,7 @@ function AboutUs() {
           <motion.div
             initial={{ opacity: '0%' }}
             whileInView={{ opacity: '100%' }}
-            transition={{ delay: 3, duration: 1 }}
+            transition={{ delay: 0.5, duration: 1 }}
           >
             <p className="text-[#A49090] text-[28px] leading-[40px] font-semibold p-0 m-0">
               Llegamos en el 2007 con el propósito de <b>cuidar</b> la
@@ -89,7 +89,8 @@ function AboutUs() {
               translateX: '10vh',
             }}
             transition={{
-              duration: 2,
+              delay: 0,
+              duration: 1.5,
             }}
             src={Gp2}
             className="w-full absolute bottom-0 max-w-[800px] h-[110%] "

@@ -7,15 +7,16 @@ import CaseScreen3 from './CaseScreens/CaseScreen3'
 import CaseFooter from './CaseFooter'
 import VisibilityContext from '../context/menuVisibleContext'
 
+
 function Popup() {
 
-  const { popup } = useContext(VisibilityContext)
+  const { popup,  } = useContext(VisibilityContext)
 
   return (
     <div className='overlay popup w-screen h-screen fixed top-0 left-0 py-[4%] px-[8%]'>
         <div className='w-full h-auto min-h-full overflow-y-auto bg-[#E4E3DB] relative flex justify-between'>
             
-            <CaseNav/>
+            {/* <CaseNav/> */}
             <div className='w-full h-full relative'>
                 {popup == '1' && <CaseScreen1/>}
                 {popup == '2' && <CaseScreen2/>}

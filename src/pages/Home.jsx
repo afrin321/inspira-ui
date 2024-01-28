@@ -12,10 +12,10 @@ function Home(props) {
     >
       <div className="grid grid-cols-12 gap-1 w-full h-full">
         <motion.div
-          className="h-auto col-span-5 p-0 m-0 "
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1, duration: 2 }}
+          className="h-auto col-span-5 p-0 m-0 ease-in"
+          initial={{ opacity: 0, top: '100vh' }}
+          animate={{ opacity: 1, top: 'auto' }}
+          transition={{ delay: 0, duration: 0.5 }}
         >
           <img src={Gp1} className="h-auto w-auto absolute left-[118px]" />
         </motion.div>
@@ -25,7 +25,7 @@ function Home(props) {
               className="p-0 m-0"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 2, duration: 1 }}
+              transition={{ delay: 0.5, duration: 0.75 }}
             >
               EMBRACING
             </motion.span>{' '}
@@ -34,7 +34,7 @@ function Home(props) {
               className="p-0 m-0"
               initial={{ opacity: 0 }}
               animate={{ opacity: 2 }}
-              transition={{ delay: 3.5, duration: 1 }}
+              transition={{ delay: 1.25, duration: 0.75 }}
             >
               YOUR
             </motion.span>{' '}
@@ -43,7 +43,7 @@ function Home(props) {
               className="p-0 m-0"
               initial={{ opacity: 0 }}
               animate={{ opacity: 3 }}
-              transition={{ delay: 5, duration: 1 }}
+              transition={{ delay: 2, duration: 0.75 }}
             >
               BRAND
             </motion.span>
@@ -52,7 +52,7 @@ function Home(props) {
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 6.5, duration: 1 }}
+              transition={{ delay: 2.75, duration: 0.75 }}
               className="text-white font-medium text-[30px] leading-[50px]"
             >
               Soluciones en comunicación gráfica y gestión de marca para
@@ -63,7 +63,7 @@ function Home(props) {
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 8, duration: 0.5 }}
+              transition={{ delay: 3.5, duration: 0.5 }}
               className=" bg-white font-semibold rounded-full text-[#F7063E] h-[72px] w-[260px] text-[30px] leading-[50px]"
             >
               Get started
