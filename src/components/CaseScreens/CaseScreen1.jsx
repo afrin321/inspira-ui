@@ -7,7 +7,7 @@ import cs5 from './../../assets/cola5.png'
 import VisibilityContext from './../../context/menuVisibleContext'
 
 function CaseScreen1() {
-  const { isVisible, setIsVisible, menuFlip, setPopupVisible } = useContext(VisibilityContext)
+  const { setPopupVisible } = useContext(VisibilityContext)
   return (
     <div className="w-full h-auto relative">
       <div onClick={() => setPopupVisible(false)} className='w-[50px] h-[50px] bg-gray-300 text-gray-700 rounded-full border-4 border-gray-100 p-auto flex justify-center items-center font-semibold absolute right-5 top-5 popup_close'>X</div>
