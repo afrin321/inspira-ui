@@ -9,10 +9,10 @@ function Contact() {
       id="contact"
       className="relative bg-[#E4E3DB] m-0 p-0 flex flex-col w-full h-screen"
     >
-      {/* <OtherNav /> */}
+      {/* <OtherNav />  */}
       <div className="w-full clear-start overflow-hidden relative flex gap-5 ">
-        <div className="w-[50%] relative">
-          <img src={Graphics} className="w-[95%] h-screen relative left-0  " />
+        <div className="w-[50%] relative h-screen">
+          <img src={Graphics} className="w-full h-screen relative left-0 top-20" />
         </div>
         <div className="h-fit w-[50%] flex flex-col justify-start items-end gap-1 mt-[5%] min-[1920px]:mt-[12%] mr-[7.5%]">
           <p className="my-5 text-[45px] min-[1920px]:text-[70px] leading-[75px] min-[1920px]:leading-[95px] whitespace-nowrap font-medium text-[#F7073E] flex justify-end ">
