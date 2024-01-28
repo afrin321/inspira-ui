@@ -9,7 +9,7 @@ function Contact() {
       id="contact"
       className="relative bg-[#E4E3DB] m-0 p-0 flex flex-col w-full h-screen"
     >
-      {/* <OtherNav /> */}
+      {/* <OtherNav />  */}
       <div className="w-full clear-start overflow-hidden relative flex gap-5 ">
         <div className="w-[50%] relative h-screen">
           <img src={Graphics} className="w-full h-screen relative left-0 top-20" />
