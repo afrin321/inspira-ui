@@ -17,22 +17,22 @@ function CaseScreen2() {
         </span>
 
         <img src={cs2} className="absolute top-[391px] w-full " />
-        <div className="px-[5%] flex flex-col text-center items-center absolute top-[940px] gap-10">
+        <div className="px-[5%] flex flex-col items-center absolute top-[940px] gap-10 !text-center">
           <span className="text-white text-[70px] font-medium leading-[95px]">
             CONTEXTO
           </span>
-          <p className="text-[#DBDBDB] text-[28px] leading-[40px]">
+          <p className="text-[#DBDBDB] text-[28px] leading-[40px] !text-center">
             <i>Energizer Holdings, Inc.</i> con sede en St. Louis Missouri USA,
             es uno de los mayores fabricantes de baterías primarias y productos
             de iluminación portátiles, reconocido mundialmente por marcas como
             Energizer, Eveready, Rayovac y Varta.
           </p>
-          <p className="text-[#DBDBDB] text-[28px] leading-[40px]">
+          <p className="text-[#DBDBDB] text-[28px] leading-[40px] !text-center">
             La estrategia de innovación y desarrollo de campañas se genera en su
             sede global, mientras que Europa y Estados Unidos son los dos
             principales bastiones para el despliegue de mercado en LATAM.
           </p>
-          <p className="text-[#DBDBDB] text-[28px] leading-[40px]">
+          <p className="text-[#DBDBDB] text-[28px] leading-[40px] !text-center">
             Lo anterior tiene dos matices de negocio: Por un lado, persigue la
             <b>eficiencia</b> y la certeza de tener una sola estrategia de
             comunicación para la región; por el otro, hay un área de oportunidad
@@ -46,11 +46,11 @@ function CaseScreen2() {
         </div>
         <div className="absolute top-[1650px]">
           <div className="mb-[100px] w-full h-auto px-[7.5%] grid grid-cols-12 gap-3">
-            <div className="col-span-6 flex flex-col justify-center">
+            <div className="col-span-6 flex flex-col justify-start pt-[120px]">
               <img src={cs3} />
             </div>
             <div className="col-span-6 flex flex-col gap-3 pl-[50px]">
-              <span className="text-[70px] leading-[95px] font-medium pl-[10%] text-[#F7073E] ">
+              <span className="text-[70px] leading-[95px] font-medium pl-[10%] text-[#F7073E] ml-[40px]">
                 PROBLEMA
               </span>
               <p className="text-[#A49090] font-normal text-[28px] leading-[40px]">
@@ -78,7 +78,7 @@ function CaseScreen2() {
           </div>
           <div className=" w-full h-auto px-[7.5%] grid grid-cols-12 gap-5 pb-[100px]">
             <div className="col-span-6 flex flex-col gap-3 pr-[50px]">
-              <span className="text-[70px] leading-[95px] font-medium pl-[5%] text-[#F7073E] ">
+              <span className="text-[70px] leading-[95px] font-medium pl-[5%] text-[#F7073E] ml-[40px]">
                 SOLUCIÓN
               </span>
               <p className="text-[#A49090] font-normal text-[28px] leading-[40px]">
@@ -95,7 +95,7 @@ function CaseScreen2() {
                 anualmente.
               </p>
             </div>
-            <div className="col-span-6 flex align-middle items-center justify-center">
+            <div className="col-span-6 flex align-middle items-center justify-start pt-[120px]">
               <img src={cs4} />
             </div>
           </div>

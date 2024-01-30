@@ -185,7 +185,6 @@ footer {
   background-image: url(./assets/gradient4.png);
 }
 
-
 /*Luis*/
 /* #home
   > div
@@ -687,7 +686,17 @@ footer {
   > div
   > div
   > div.mt-\[200px\].mb-\[100px\].w-full.h-auto.px-\[7\.5\%\].grid.grid-cols-12.gap-3
-  > div.col-span-6.flex.align-middle.items-center.justify-center {
+  > div.col-span-6.flex.align-middle.items-center.justify-center,
+#root
+  > div
+  > div
+  > div.overlay.popup.w-screen.h-screen.fixed.top-0.left-0.py-\[4\%\].px-\[8\%\]
+  > div
+  > div
+  > div
+  > div.case4-gradient.h-\[1111px\].w-full.absolute.top-\[360px\].flex.flex-col.items-center.pt-\[15\%\]
+  > div.mt-\[150px\].mb-\[100px\].w-full.h-auto.px-\[7\.5\%\].grid.grid-cols-12.gap-3
+  > div.col-span-6.flex.flex-col.justify-center {
   justify-content: end;
 }
 #root

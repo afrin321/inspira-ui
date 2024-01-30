@@ -23,6 +23,7 @@ function Popup() {
                 {popup == '2' && <CaseScreen2/>}
                 {popup == '3' && <CaseScreen3/>}
                 {popup == '4' && <CaseScreen4/>}
+                {popup == '4' && <CaseScreen4/>}
                 {/* <CaseFooter/> */}
             </div>
             

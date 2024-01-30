@@ -16,22 +16,22 @@ function CaseScreen4() {
     <div className="w-full h-auto relative">
       <div onClick={() => setPopupVisible(false)} className='w-[50px] h-[50px] bg-gray-300 text-gray-700 rounded-full border-4 border-gray-100 p-auto flex justify-center items-center font-semibold absolute right-5 top-5 popup_close'>X</div>
       <img src={cs1} className="absolute top-0" />
-      <div className="case4-gradient h-[1111px] w-full absolute top-[360px] flex flex-col items-center pt-[15%] ">
+      <div className="case4-gradient h-[1111px] w-full absolute top-[320px] flex flex-col items-center pt-[15%] ">
         <span className="text-white text-[70px] font-medium leading-[95px]">
             SANTA CLARA
         </span>
-        <div className="w-full px-[7.5%] grid grid-cols-12 gap-1 mt-[7%]">
+        <div className="w-full px-[7.5%] grid grid-cols-12 gap-1 mt-[70px]">
           <div className="col-span-6 flex flex-col gap-5 pr-5">
             <span className="text-white text-[70px] font-medium leading-[95px] ml-[40px]">
               CONTEXTO
             </span>
-            <p className="text-[#DBDBDB] text-[28px] font-medium leading-[40px] pr-[100px]">
+            <p className="text-[#DBDBDB] text-[28px] font-medium leading-[40px] pr-[50px]">
                 La incorporación de Santa Clara al portafolios de bebidas de The Coca-Cola 
                 Company, representaba una gran oportunidad para entrar en una
                 de las categorías de mayor valor y crecimiento en la industria de bebidas 
                 no alcohólicas.
             </p>
-            <p className="text-[#DBDBDB]">
+            <p className="text-[#DBDBDB] text-[28px] font-medium leading-[40px] pr-[50px]">
                 Fue así como en 2012 Coca-Cola adquirió Santa Clara, una marca de productos 
                 lácteos de gran calidad hechos artesanalmente. En ese momento, su estrategia de 
                 venta era únicamente a través de las tiendas Santa Clara, con un brand portfolio 
@@ -39,26 +39,26 @@ function CaseScreen4() {
                 yogurt, crema, queso cottage, paletas heladas y nata.
             </p>
           </div>
-          <div className="col-span-6 flex flex-col items-center justify-center">
+          <div className="col-span-6 flex flex-col items-center justify-start mt-[120px]">
             <img src={cs2} className="" />
           </div>
         </div>
         <div className="mt-[150px] mb-[100px] w-full h-auto px-[7.5%] grid grid-cols-12 gap-3">
-            <div className="col-span-6 flex flex-col justify-center">
+            <div className="col-span-6 flex flex-col justify-start mt-[120px]">
                 <img src={cs3} />
             </div>
             <div className="col-span-6 flex flex-col gap-3 pl-[50px]">
-                <span className="text-[70px] leading-[95px] font-medium pl-[10%] text-[#F7073E] ">
+                <span className="text-[70px] leading-[95px] font-medium pl-[50px] text-[#F7073E] ml-[40px]">
                 PROBLEMA
                 </span>
-                <p className="text-[#A49090] font-normal text-[28px] leading-[40px]">
+                <p className="text-[#A49090] font-medium text-[28px] leading-[40px] ">
                     El plan de expansión de la marca implicaba ampliar el brand stretch del portafolio 
                     y entrar con fuerza al sistema de distribución y venta de la compañía en los canales 
                     moderno, tradicional y de conveniencia, cumplir con las regulaciones necesarias <br/>
                     para dicho efecto y con un agresivo plan de crecimiento en tiendas propias.
                 </p>
                 <br />
-                <p className="text-[#A49090] font-normal text-[28px] leading-[40px]">
+                <p className="text-[#A49090] font-medium text-[28px] leading-[40px]">
                     Para lograr lo anterior, el gran reto era conservar la herencia 
                     artesanal de la marca y, en paralelo, elevar el discurso gráfico 
                     a un territorio más premium que pudiera establecer las bases 

@@ -21,13 +21,13 @@ function CaseScreen2() {
             <span className="text-white text-[70px] font-medium leading-[95px] px-[40px]">
               CONTEXTO
             </span>
-            <p className="text-white text-[28px] font-medium leading-[40px] pr-[100px]">
+            <p className="text-white text-[28px] font-medium leading-[40px] pr-[50px]">
               Ante el gran reto que ha representado la economía global post
               pandemia, Coca-Cola Company hizo una reestructura global en
               septiembre de 2021 con el objetivo de buscar economías de escala
               que resultaran en una mayor <b>productividad y eficiencia</b>.
             </p>
-            <p className="text-white">
+            <p className="text-white text-[28px] font-medium leading-[40px] pr-[50px]">
               Lo anterior tuvo dos grandes implicaciones: La simplificación de{' '}
               <b>3 a 1 sola área</b> involucrada en la gestión de proyectos de
               etiquetado del total del portafolios, llamada <b>“Frontline”</b> y
@@ -42,16 +42,16 @@ function CaseScreen2() {
               agencias de adaptación de empaque en Latinoamérica.
             </p>
           </div>
-          <div className="col-span-6 flex flex-col items-center justify-center">
+          <div className="col-span-6 flex flex-col items-center justify-start pt-[120px]">
             <img src={cs3} className="" />
           </div>
         </div>
         <div className="mt-[200px] mb-[100px] w-full h-auto px-[7.5%] grid grid-cols-12 gap-3">
-          <div className="col-span-6 flex align-middle items-center justify-center">
+          <div className="col-span-6 flex flex-col align-middle items-center justify-start pt-[120px]">
             <img src={cs2} />
           </div>
           <div className="col-span-6 flex flex-col gap-3 pl-[50px]">
-            <span className="text-[70px] leading-[95px] font-medium pl-[10%] text-[#F7073E] ">
+            <span className="text-[70px] leading-[95px] font-medium pl-[10%] text-[#F7073E] ml-[40px]">
               PROBLEMA
             </span>
             <p className="text-[#A49090] font-normal text-[28px] leading-[40px]">
@@ -74,10 +74,10 @@ function CaseScreen2() {
         </div>
         <div className="my-[50px] w-full h-auto px-[7.5%] grid grid-cols-12 gap-5">
           <div className="col-span-12 text-center flex flex-col items-center gap-3 pr-[50px]">
-            <span className="text-[70px] leading-[95px] font-medium pl-[5%] text-[#F7073E] ">
+            <span className="text-[70px] leading-[95px] font-medium pl-[5%] text-[#F7073E] ml-[40px]">
               SOLUCIÓN
             </span>
-            <p className="text-[#A49090] font-normal text-[28px] leading-[40px]">
+            <p className="text-[#A49090] font-normal text-[28px] leading-[40px] !text-center">
               Coca-Cola Company faculto a Inspira para crear un equipo exclusivo
               responsable de la administración y capacitación de las agencias en
               LATAM. De esta forma, nace una nueva entidad llamada{' '}
@@ -91,7 +91,7 @@ function CaseScreen2() {
               aproximadamente 250 personas.
             </p>
             <br />
-            <p className="text-[#A49090] font-normal text-[28px] leading-[40px]">
+            <p className="text-[#A49090] font-normal text-[28px] leading-[40px] !text-center">
               El{' '}
               <b>
                 <i>Adaptation Cloud</i>

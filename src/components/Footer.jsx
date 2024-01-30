@@ -18,6 +18,7 @@ function Footer() {
   }
 
   return (
+    
     <footer className={`w-full flex justify-between footer absolute bottom-0 py-2 px-[7.5%] m-0`}>
         <div className='flex w-fit flex-col py-1 gap-2 items-start'>
             <Link to={'/'}><img src={Logo} className='my-2 w-24 min-[1920px]:h-[60px] min-[1920px]:w-auto cursor-pointer' /></Link>
@@ -43,6 +44,6 @@ function Footer() {
         </div>
     </footer>
   )
-}
+  }
 
 export default Footer

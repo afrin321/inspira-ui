@@ -38,7 +38,7 @@ function Landing() {
 
   return (
     <VisibilityContext.Provider value={{ isVisible, setIsVisible, menuFlip, popupVisible, setPopupVisible, popup, setPopup }}>
-      <motion.div className={`w-full h-auto relative `}>
+      <motion.div className={`w-full h-auto relative  `}>
           {/* <Home/>      */}
           <Nav/>
           <div className='w-full h-auto m-0 p-0 absolute top-0'>

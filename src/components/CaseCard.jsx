@@ -37,6 +37,7 @@ function CaseCard(props) {
                         <p className="text-white font-bold text-xl min-[1920px]:text-[40px] min-[1920px]:leading-[40px] ">{title}</p>
                         <p className='text-white text-[12px] font-semibold min-[1920px]:font-medium min-[1920px]:text-[22px] min-[1920px]:leading-[30px]'>{description}</p>
                         <button onClick={() => goToCase(img)} className={`my-5 min-[1920px]:my-2 text-[#F7063E] text-sm rounded-full px-10 ${img == '4' ? 'min-[1920px]:w-[360px]' : 'min-[1920px]:w-[260px]'} py-2 bg-white font-semibold min-[1920px]:text-[30px] min-[1920px]:leading-[50px]`}>{ img == '4' ? 'PROXIMAMENTE' : 'Detalle' }</button>
+                       
                     </div>
                 }
             </div>
