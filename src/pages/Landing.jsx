@@ -22,6 +22,8 @@ function Landing() {
   const [popup, setPopup] = useState(null)
 
 
+
+
   const targetRef = useRef
 
   const { scrollYProgress, scrollY } = useScroll()
@@ -37,8 +39,8 @@ function Landing() {
 
 
   return (
-    <VisibilityContext.Provider value={{ isVisible, setIsVisible, menuFlip, popupVisible, setPopupVisible, popup, setPopup }}>
-      <motion.div className={`w-full h-auto relative  `}>
+    <VisibilityContext.Provider value={{ isVisible, setIsVisible, menuFlip, popupVisible, setPopupVisible, popup, setPopup,  }}>
+      <motion.div className={`w-full h-auto  ${popupVisible ? 'fixed top-0 left-0 overflow-hidden' : 'relative' } `}>
           {/* <Home/>      */}
           <Nav/>
           <div className='w-full h-auto m-0 p-0 absolute top-0'>

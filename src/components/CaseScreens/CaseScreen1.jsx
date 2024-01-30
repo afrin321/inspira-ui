@@ -7,7 +7,10 @@ import cs5 from './../../assets/cola5.png'
 import VisibilityContext from './../../context/menuVisibleContext'
 
 function CaseScreen1() {
-  const { setPopupVisible } = useContext(VisibilityContext)
+  const { setPopupVisible,  } = useContext(VisibilityContext)
+
+
+  
   
   return (
     <div className="w-full h-auto relative ">

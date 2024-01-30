@@ -62,7 +62,7 @@ function Services() {
   const thirdIconTranslateY = useTransform(
     scrollYProgress,
     [0, 0.3, 0.5, 0.7],
-    ['0%', '-12vh', '-45vh', '-70vh']
+    ['0%', '-12vh', '-45vh', '-85vh']
   )
   const thirdIconDisplay = useTransform(
     scrollYProgress,

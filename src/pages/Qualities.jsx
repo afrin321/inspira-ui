@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useRef } from 'react'
 import CaseCard from '../components/CaseCard'
+import Popup from '../components/Popup'
 import VisibilityContext from './../context/menuVisibleContext'
 
 function Qualities() {
@@ -143,6 +144,7 @@ function Qualities() {
           </motion.div>
         </div>
       </div>
+      
     </section>
   )
 }

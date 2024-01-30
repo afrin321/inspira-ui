@@ -2,11 +2,14 @@ import React from 'react'
 import Logo from './../assets/logo-sm.png'
 import Insta from './../assets/insta_logo.png'
 import LinkedIn from './../assets/linkedin_logo.png'
-import { useState } from 'react'
+import { useState, useContext } from 'react'
 import { Link } from 'react-router-dom'
+import VisibilityContext from '../context/menuVisibleContext'
 
 function Footer() {
   const {currentDiv, setCurrentDiv} = useState('home')
+
+  const { setPopupVisible, setPopup } = useContext(VisibilityContext)
 
   const scrollToDiv = (divId) => {
     let offsetTop  = document.getElementById(divId).offsetTop;
@@ -14,8 +17,13 @@ function Footer() {
         top: offsetTop-1, 
         behavior: "smooth"
     });
-    
   }
+
+  const goToPrivacy = () => {
+    setPopupVisible(true)
+    setPopup('5')
+  }
+
 
   return (
     
@@ -29,7 +37,7 @@ function Footer() {
         </div>
         <div className=' w-full flex w-fit gap-10 justify-end text-[12px] min-[1920px]:text-[20px] leading-[24px] min-[1920px]:leading-[40px] pb-5 px-0 mx-0'>
             <div className='flex flex-col text-white w-fit'>
-                <span  className='cursor-pointer hover:underline'>POLITICA DE PRIVACIDAD</span>
+                <span onClick={() => goToPrivacy()} className='cursor-pointer hover:underline'>POLITICA DE PRIVACIDAD</span>
                 <span  className='cursor-pointer hover:underline'>AVISO LEGAL</span>
                 <span  className='cursor-pointer hover:underline'>POLITICA DE COOKIES</span>
             </div>
