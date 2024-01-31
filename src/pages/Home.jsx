@@ -19,10 +19,10 @@ function Home(props) {
           initial={{ opacity: 0, scale: 0, translateY: '100vh' }}
           animate={{ opacity: 1, scale: 1, translateY: '0vh'  }}
           transition={{ delay: 0, duration: 1 }}
-          src={Gp1} className="h-auto w-auto absolute left-[118px]" />
+          src={Gp1} className="graphic-1 h-auto w-auto absolute left-[118px]" />
         </motion.div>
         <div className="col-span-4 w-full h-full p-0 m-0 flex flex-col justify-start items-start">
-          <div className="w-full h-[242px] p-0 m-0 flex flex-col text-[70px] font-bold leading-[45px] text-white">
+          <div className="embracing-your-brand w-full h-[242px] p-0 m-0 flex flex-col text-[70px] font-bold leading-[45px] text-white">
             <motion.span
               className="p-0 m-0"
               initial={{ opacity: 0 }}
