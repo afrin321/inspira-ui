@@ -13,7 +13,7 @@ import VisibilityContext from './context/menuVisibleContext'
 import { motion, useMotionValueEvent, useScroll } from 'framer-motion'
 import Landing from './pages/Landing'
 import Main from './pages/Main'
-
+ 
 
 function App() {
 
