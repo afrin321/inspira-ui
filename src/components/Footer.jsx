@@ -18,21 +18,21 @@ function Footer() {
   }
 
   return (
-    <footer className={`w-full flex justify-between footer absolute bottom-0 py-2 px-[7.5%] m-0`}>
+    <footer className={`w-full flex justify-between  footer  bottom-0 py-2 px-20 m-0`}>
         <div className='flex w-fit flex-col py-1 gap-2 items-start'>
-            <Link to={'/'}><img src={Logo} className='my-2 w-24 min-[1920px]:h-[60px] min-[1920px]:w-auto cursor-pointer' /></Link>
+            <Link to={'/'}><img src={Logo} className='my-2 w-24 h-auto xl:w-36 2xl:w-48 cursor-pointer' /></Link>
             <div className='flex gap-2'>
-                <img src={Insta} className='w-8 h-8 min-[1920px]:h-12 min-[1920px]:w-12' />
-                <img src={LinkedIn} className='w-8 h-8 min-[1920px]:h-12 min-[1920px]:w-12' />
+                <img src={Insta} className='w-10 h-10 2xl:w-14 2xl:h-14' />
+                <img src={LinkedIn} className='w-10 h-10 2xl:w-14 2xl:h-14' />
             </div>
         </div>
-        <div className=' w-full flex w-fit gap-10 justify-end text-[12px] min-[1920px]:text-[20px] leading-[24px] min-[1920px]:leading-[40px] pb-5 px-0 mx-0'>
-            <div className='flex flex-col text-white w-fit'>
+        <div className=' w-full flex  gap-10 justify-end  py-5 px-0 mx-0 text-xs 2xl:text-xl'>
+            <div className='flex flex-col gap-2 text-white w-fit'>
                 <span  className='cursor-pointer hover:underline'>POLITICA DE PRIVACIDAD</span>
                 <span  className='cursor-pointer hover:underline'>AVISO LEGAL</span>
                 <span  className='cursor-pointer hover:underline'>POLITICA DE COOKIES</span>
             </div>
-            <div className='flex flex-col w-fit whitespace-nowrap text-white '>
+            <div className='flex flex-col w-fit gap-2 whitespace-nowrap text-white  '>
                 <span onClick={() => scrollToDiv('home')} className='cursor-pointer hover:underline' >HOME</span>
                 <span onClick={() => scrollToDiv('about')} className='cursor-pointer hover:underline' >¿QUÉ NOS INSPIRA?</span>
                 <span onClick={() => scrollToDiv('service')} className='cursor-pointer hover:underline' >¿QUÉ HACEMOS? </span>

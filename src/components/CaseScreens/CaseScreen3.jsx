@@ -17,8 +17,8 @@ function CaseScreen2() {
         </span>
 
         <img src={cs2} className="absolute top-[391px] w-full " />
-        <div className="px-[5%] flex flex-col text-center items-center absolute top-[940px] gap-10">
-          <span className="text-white text-[70px] font-medium leading-[95px]">
+        <div className="px-[5%] flex flex-col text-center items-center absolute top-[700px] xl:top-[940px] gap-8">
+          <span className="text-white text-4xl xl:text-[70px] font-medium leading-[95px]">
             CONTEXTO
           </span>
           <p className="text-[#DBDBDB] text-[28px] leading-[40px]">
@@ -44,13 +44,13 @@ function CaseScreen2() {
             lo que repercute directamente en la iconocidad del portafolio.
           </p>
         </div>
-        <div className="absolute top-[1650px]">
-          <div className="mb-[100px] w-full h-auto px-[7.5%] grid grid-cols-12 gap-3">
-            <div className="col-span-6 flex flex-col justify-center">
+        <div className="absolute top-[1550px] xl:top-[1650px]">
+          <div className="mb-[100px] w-full h-auto px-[7.5%] flex flex-col xl:flex-row gap-5">
+            <div className="w-full xl:w-1/2 xl:flex xl:flex-col xl:justify-center hidden">
               <img src={cs3} />
             </div>
-            <div className="col-span-6 flex flex-col gap-3 pl-[50px]">
-              <span className="text-[70px] leading-[95px] font-medium pl-[10%] text-[#F7073E] ">
+            <div className="w-full xl:w-1/2 flex flex-col gap-3 xl:pl-[50px]">
+              <span className="text-4xl xl:text-[70px] leading-[95px] font-medium pl-[10%] text-[#F7073E] ">
                 PROBLEMA
               </span>
               <p className="text-[#A49090] font-normal text-[28px] leading-[40px]">
@@ -75,9 +75,12 @@ function CaseScreen2() {
                 revisión ya existente.
               </p>
             </div>
+            <div className="w-full xl:w-1/2 xl:hidden block">
+              <img src={cs3} />
+            </div>
           </div>
-          <div className=" w-full h-auto px-[7.5%] grid grid-cols-12 gap-5 pb-[100px]">
-            <div className="col-span-6 flex flex-col gap-3 pr-[50px]">
+          <div className=" w-full h-auto px-[7.5%] flex flex-col xl:flex-row gap-5 pb-[100px]">
+            <div className="w-full xl:w-1/2 flex flex-col gap-3 pr-[50px]">
               <span className="text-[70px] leading-[95px] font-medium pl-[5%] text-[#F7073E] ">
                 SOLUCIÓN
               </span>
@@ -95,7 +98,7 @@ function CaseScreen2() {
                 anualmente.
               </p>
             </div>
-            <div className="col-span-6 flex align-middle items-center justify-center">
+            <div className="w-full xl:w-1/2 flex align-middle items-center justify-center">
               <img src={cs4} />
             </div>
           </div>

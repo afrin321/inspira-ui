@@ -13,15 +13,15 @@ function CaseScreen2() {
       <div onClick={() => setPopupVisible(false)} className='w-[50px] h-[50px] bg-gray-300 text-gray-700 rounded-full border-4 border-gray-100 p-auto flex justify-center items-center font-semibold absolute right-5 top-5 popup_close'>X</div>
       <img src={cs1} className="absolute top-0" />
       <div className="case2-gradient h-[1311px] w-full absolute top-[360px] flex flex-col items-center pt-[15%] ">
-        <span className="text-white text-[70px] font-medium leading-[95px]">
+        <span className="text-white text-4xl xl:text-[70px] font-medium leading-[95px]">
           <em>ADAPTATION CLOUD</em> <br /> LATAM Coca-Cola Brands
         </span>
-        <div className="w-full px-[7.5%] grid grid-cols-12 gap-1 mt-[7%]">
-          <div className="col-span-6 flex flex-col gap-5 pr-5">
+        <div className="w-full px-[7.5%] flex xl:items-center  xl:gap-5 flex-col xl:flex-row gap-5 ">
+          <div className="w-full xl:w-1/2 flex flex-col gap-5 pr-5 xl:mt-10">
             <span className="text-white text-[70px] font-medium leading-[95px] px-[40px]">
               CONTEXTO
             </span>
-            <p className="text-white text-[28px] font-medium leading-[40px] pr-[100px]">
+            <p className="text-white text-[28px] font-medium leading-[40px]">
               Ante el gran reto que ha representado la economía global post
               pandemia, Coca-Cola Company hizo una reestructura global en
               septiembre de 2021 con el objetivo de buscar economías de escala
@@ -42,16 +42,16 @@ function CaseScreen2() {
               agencias de adaptación de empaque en Latinoamérica.
             </p>
           </div>
-          <div className="col-span-6 flex flex-col items-center justify-center">
-            <img src={cs3} className="" />
+          <div className="w-full xl:w-1/2 xl:h-1/2 h-auto">
+            <img src={cs3} className="h-[400px] xl:h-[550px] xl:w-auto w-full" />
           </div>
         </div>
-        <div className="mt-[200px] mb-[100px] w-full h-auto px-[7.5%] grid grid-cols-12 gap-3">
-          <div className="col-span-6 flex align-middle items-center justify-center">
+        <div className="mt-10 xl:mt-[200px] xl:mb-[100px] w-full h-auto px-[7.5%]  flex flex-col xl:flex-row xl:items-center gap-5 xl:gap-10">
+          <div className="w-full xl:w-1/2 xl:block hidden ">
             <img src={cs2} />
           </div>
-          <div className="col-span-6 flex flex-col gap-3 pl-[50px]">
-            <span className="text-[70px] leading-[95px] font-medium pl-[10%] text-[#F7073E] ">
+          <div className="w-full xl:w-1/2 flex flex-col gap-3 ">
+            <span className="text-4xl xl:text-[70px] leading-[95px] font-medium pl-[10%] text-[#F7073E] ">
               PROBLEMA
             </span>
             <p className="text-[#A49090] font-normal text-[28px] leading-[40px]">
@@ -71,10 +71,13 @@ function CaseScreen2() {
               a nivel local.
             </p>
           </div>
+          <div className="w-full xl:w-1/2 xl:hidden block ">
+            <img src={cs2} />
+          </div>
         </div>
         <div className="my-[50px] w-full h-auto px-[7.5%] grid grid-cols-12 gap-5">
           <div className="col-span-12 text-center flex flex-col items-center gap-3 pr-[50px]">
-            <span className="text-[70px] leading-[95px] font-medium pl-[5%] text-[#F7073E] ">
+            <span className="text-4xl xl:text-[70px] leading-[95px] font-medium pl-[5%] text-[#F7073E] ">
               SOLUCIÓN
             </span>
             <p className="text-[#A49090] font-normal text-[28px] leading-[40px]">

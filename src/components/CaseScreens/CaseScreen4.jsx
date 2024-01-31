@@ -20,12 +20,12 @@ function CaseScreen4() {
         <span className="text-white text-[70px] font-medium leading-[95px]">
             SANTA CLARA
         </span>
-        <div className="w-full px-[7.5%] grid grid-cols-12 gap-1 mt-[7%]">
-          <div className="col-span-6 flex flex-col gap-5 pr-5">
-            <span className="text-white text-[70px] font-medium leading-[95px] ml-[40px]">
+        <div className="w-full px-[7.5%] flex flex-col xl:flex-row gap-8 xlgap-3 mt-[7%]">
+          <div className="w-full xl:w-1/2 flex flex-col gap-5 xl:pr-5">
+            <span className="text-white text-4xl xl:text-[70px] font-medium leading-[95px] xl:ml-[40px]">
               CONTEXTO
             </span>
-            <p className="text-[#DBDBDB] text-[28px] font-medium leading-[40px] pr-[100px]">
+            <p className="text-[#DBDBDB] text-[28px] font-medium leading-[40px] ">
                 La incorporación de Santa Clara al portafolios de bebidas de The Coca-Cola 
                 Company, representaba una gran oportunidad para entrar en una
                 de las categorías de mayor valor y crecimiento en la industria de bebidas 
@@ -39,16 +39,16 @@ function CaseScreen4() {
                 yogurt, crema, queso cottage, paletas heladas y nata.
             </p>
           </div>
-          <div className="col-span-6 flex flex-col items-center justify-center">
+          <div className="w-full xl:w-1/2 xl:flex xl:flex-col xl:justify-center">
             <img src={cs2} className="" />
           </div>
         </div>
-        <div className="mt-[150px] mb-[100px] w-full h-auto px-[7.5%] grid grid-cols-12 gap-3">
-            <div className="col-span-6 flex flex-col justify-center">
+        <div className="mt-[150px] mb-[100px] w-full h-auto px-[7.5%] flex flex-col xl:flex-row gap-8 xlgap-3">
+            <div className="w-full xl:w-1/2 hidden xl:flex xl:flex-col xl:justify-center">
                 <img src={cs3} />
             </div>
-            <div className="col-span-6 flex flex-col gap-3 pl-[50px]">
-                <span className="text-[70px] leading-[95px] font-medium pl-[10%] text-[#F7073E] ">
+            <div className="w-full xl:w-1/2 flex flex-col gap-3 xl:pl-[50px]">
+                <span className="text-4xl xl:text-[70px] leading-[95px] font-medium pl-[10%] text-[#F7073E] ">
                 PROBLEMA
                 </span>
                 <p className="text-[#A49090] font-normal text-[28px] leading-[40px]">
@@ -66,13 +66,16 @@ function CaseScreen4() {
                     extensiones de línea y puntos de contacto.
                 </p>
             </div>
+            <div className="w-full xl:w-1/2 block xl:hidden">
+                <img src={cs3} />
+            </div>
         </div>
         <div className='w-full h-fit'>
             <img src={cs4} className='w-full h-auto object-cover'/>
         </div>
         <div className="my-[50px] w-full h-auto px-[7.5%] grid grid-cols-12 gap-5">
           <div className="mb-[150px] text-center col-span-12 flex flex-col items-center gap-3 pr-[50px]">
-            <span className="text-[70px] leading-[95px] font-medium pl-[5%] text-[#F7073E] ">
+            <span className="text-4xl xl:text-[70px] leading-[95px] font-medium pl-[5%] text-[#F7073E] ">
               SOLUCIÓN
             </span>
             <p className="text-[#A49090] font-normal text-[28px] leading-[40px] !text-center">

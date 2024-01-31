@@ -13,11 +13,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.home {
+/* .home {
   background-image: url('./assets/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .qualities {
   background-image: url('./assets/bg_2.png');
@@ -185,6 +185,7 @@ footer {
   background-image: url(./assets/gradient4.png);
 }
 
+
 /*Luis*/
 /* #home
   > div
@@ -207,7 +208,7 @@ footer {
   height: 100px;
 } */
 
-#team
+/* #team
   > div
   > div.h-52.flex.gap-2.justify-start.w-full.pl-10
   > div
@@ -232,7 +233,7 @@ footer {
   > div
   > p.text-\[\#FF6F1F\] {
   font-weight: 500;
-}
+} */
 
 #root
   > div
@@ -292,25 +293,25 @@ footer {
   margin-right: -23px;
 }
 
-#home > div > div.h-full.w-\[55\%\].relative.p-0.m-0 > img {
+/* #home > div > div.h-full.w-\[55\%\].relative.p-0.m-0 > img {
   width: 700px;
   height: 775px;
   right: 120px;
   top: 113px;
-}
+} */
 
-#home
+/* #home
   > div
   > div.p-0.m-0.h-full.w-\[45\%\].flex.flex-col.justify-start.items-start {
   margin-right: 170px;
-}
+} */
 
-#home
+/* #home
   > div
   > div.p-0.m-0.h-full.w-\[45\%\].flex.flex-col.justify-start.items-start
   > button {
   margin-top: 70px;
-}
+} */
 
 .top {
   height: 117px;
@@ -372,9 +373,9 @@ footer {
   right: 12.5%;
 }
 
-#service > div > div > div {
+/* #service > div > div > div {
   width: 33%;
-}
+} */
 
 #service
   > div
@@ -418,9 +419,9 @@ footer {
   gap: 1rem;
 }
 
-#team > div {
+/* #team > div {
   padding-top: 9.66rem;
-}
+} */
 #team > div > div.h-52.flex.gap-2.justify-start.w-full.pl-10 > div > img,
 #team > div > div.h-52.flex.gap-2.justify-end.w-\[90\%\] > div > img {
   height: 25rem;
@@ -434,9 +435,9 @@ footer {
   height: 23rem;
 }
 
-#team > div {
+/* #team > div {
   padding-left: 5.25rem;
-}
+} */
 
 #team > div > div.h-52.flex.gap-2.justify-start.w-full.pl-10 {
   height: 23rem;
@@ -450,7 +451,7 @@ footer {
   margin-left: 15rem;
 }
 
-#contact > footer {
+/* #contact > footer {
   height: 340px;
 }
 
@@ -475,7 +476,7 @@ footer {
   margin-left: 38.3rem;
   font-weight: 500;
   margin-top: 0.75rem;
-}
+} */
 
 .case1-gradient {
   background-image: url(./assets/gradient1.png);
@@ -511,14 +512,14 @@ footer {
   margin-right: 3rem;
 }
 
-#home
+/* #home
   > div
   > div.col-span-4.w-full.h-full.p-0.m-0.flex.flex-col.justify-start.items-start
   > div.w-full.h-\[242px\].p-0.m-0.flex.flex-col.text-\[70px\].font-bold.leading-\[45px\].text-white {
   font-size: 81px;
-}
+} */
 
-#home > div > div.h-auto.col-span-5.p-0.m-0 > img {
+/* #home > div > div.h-auto.col-span-5.p-0.m-0 > img {
   left: 4.7rem;
 }
 
@@ -547,7 +548,7 @@ footer {
   > div
   > div.col-span-4.w-full.h-full.p-0.m-0.flex.flex-col.justify-start.items-start {
   margin-left: 7rem;
-}
+} */
 
 #root > div > div > nav {
   height: 8rem;
@@ -563,10 +564,10 @@ footer {
   margin-bottom: 3.25rem;
 }
 
-#about > div {
+/* #about > div {
   padding-left: 0rem;
   padding-right: 8rem;
-}
+} */
 
 #about > div > div.w-full.h-auto.relative.p-0.m-0.pt-0.flex.justify-end > img {
   bottom: 0rem;
@@ -611,11 +612,11 @@ footer {
   top: 50rem !important;
 }
 
-#team > div > div.h-52.flex.gap-2.justify-start.w-full.pl-10 {
+/* #team > div > div.h-52.flex.gap-2.justify-start.w-full.pl-10 {
   padding-left: 3rem;
-}
+} */
 
-#contact > div > div.w-\[50\%\].relative > img {
+/* #contact > div > div.w-\[50\%\].relative > img {
   width: 100%;
   height: auto;
 }
@@ -656,7 +657,7 @@ footer {
   > p.flex.w-full.justify-center.items-center.min-\[1920px\]\:items-end.align-middle
   > button {
   margin-left: 5rem;
-}
+} */
 
 #root
   > div
@@ -686,17 +687,7 @@ footer {
   > div
   > div
   > div.mt-\[200px\].mb-\[100px\].w-full.h-auto.px-\[7\.5\%\].grid.grid-cols-12.gap-3
-  > div.col-span-6.flex.align-middle.items-center.justify-center,
-#root
-  > div
-  > div
-  > div.overlay.popup.w-screen.h-screen.fixed.top-0.left-0.py-\[4\%\].px-\[8\%\]
-  > div
-  > div
-  > div
-  > div.case4-gradient.h-\[1111px\].w-full.absolute.top-\[360px\].flex.flex-col.items-center.pt-\[15\%\]
-  > div.mt-\[150px\].mb-\[100px\].w-full.h-auto.px-\[7\.5\%\].grid.grid-cols-12.gap-3
-  > div.col-span-6.flex.flex-col.justify-center {
+  > div.col-span-6.flex.align-middle.items-center.justify-center {
   justify-content: end;
 }
 #root

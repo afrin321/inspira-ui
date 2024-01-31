@@ -53,21 +53,21 @@ function Qualities() {
   return (
     <section
       id="quality"
-      className={`qualities m-0 p-0 flex flex-col w-full h-screen ${popupVisible ? 'fixed top-0 left-0 overflow-hidden' : ''}`}
+      className={`qualities m-0 px-20 flex flex-col w-full h-full ${popupVisible ? 'fixed top-0 left-0 overflow-hidden' : ''}`}
     >
       {/* <OtherNav styles='opacity-0' /> */}
-      <div className="py-1 h-full w-full m-0 flex flex-col pt-24 px-[8%]">
-        <div className="py-1">
-          <span className="text-white whitespace-nowrap text-[45px] min-[1920px]:text-[70px] leading-[75px] min-[1920px]:leading-[95px]">
+      <div className="py-1 h-full w-full m-0 flex flex-col ">
+        <div className="py-1 ">
+          <span className="text-white whitespace-nowrap xl:text-4xl lg:text-3xl text-2xl">
             CASOS QUE NOS SIGUEN <b>INSPIRANDO</b>{' '}
           </span>
         </div>
-        <div className="flex justify-between gap-2 h-full py-2">
+        <div className="flex justify-between gap-2 h-full py-2 ">
           <motion.div
             ref={divA}
             onHoverStart={() => setHoverElement(divA)}
             className={`${hoverElement == divA ? 'w-[50%]' : 'w-[16%]'} h-full 
-              rounded-xl case1 p-0 transition-all`}
+              rounded-xl case1 p-0 transition-all `}
           >
             <div
               className={`rounded-xl w-full h-full ${
