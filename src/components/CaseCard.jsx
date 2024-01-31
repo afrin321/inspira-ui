@@ -9,7 +9,7 @@ function CaseCard(props) {
   const { data } = props
   const { img, title, description, isHover } = data
 
-  const { setPopupVisible, setPopup } = useContext(VisibilityContext)
+  const { setPopupVisible, setPopup, scrollPos, setScrollPos } = useContext(VisibilityContext)
 
   const imgMap = new Map()
   imgMap.set('1', One)
@@ -18,8 +18,11 @@ function CaseCard(props) {
   imgMap.set('4', Four)
 
   const goToCase = (img) => {
+    // const scrollPosition = window.scrollY
+    // setScrollPos(scrollPosition)
     setPopupVisible(true)
     setPopup(img)
+    
   }
 
   return (

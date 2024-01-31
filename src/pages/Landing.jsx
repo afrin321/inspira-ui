@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Home from './Home'
 import AboutUs from './AboutUs'
 import Services from './Services'
@@ -20,11 +20,12 @@ function Landing() {
   const [menuFlip, setMenuFlip] = useState(false)
   const [popupVisible, setPopupVisible] = useState(false)
   const [popup, setPopup] = useState(null)
+  const [scrollPos, setScrollPos] = useState(null)
 
 
 
 
-  const targetRef = useRef
+  const targetRef = useRef()
 
   const { scrollYProgress, scrollY } = useScroll()
 
@@ -38,8 +39,10 @@ function Landing() {
   });
 
 
+
+
   return (
-    <VisibilityContext.Provider value={{ isVisible, setIsVisible, menuFlip, popupVisible, setPopupVisible, popup, setPopup,  }}>
+    <VisibilityContext.Provider value={{ isVisible, setIsVisible, menuFlip, popupVisible, setPopupVisible, popup, setPopup, scrollPos, setScrollPos }}>
       <motion.div className={`w-full h-auto  ${popupVisible ? 'fixed top-0 left-0 overflow-hidden' : 'relative' } `}>
           {/* <Home/>      */}
           <Nav/>

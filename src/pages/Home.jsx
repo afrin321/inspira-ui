@@ -13,11 +13,13 @@ function Home(props) {
       <div className="grid grid-cols-12 gap-1 w-full h-full">
         <motion.div
           className="h-auto col-span-5 p-0 m-0 ease-in"
-          initial={{ opacity: 0, top: '100vh' }}
-          animate={{ opacity: 1, top: 'auto' }}
-          transition={{ delay: 0, duration: 0.5 }}
+          
         >
-          <img src={Gp1} className="h-auto w-auto absolute left-[118px]" />
+          <motion.img 
+          initial={{ opacity: 0, scale: 0, translateY: '100vh' }}
+          animate={{ opacity: 1, scale: 1, translateY: '0vh'  }}
+          transition={{ delay: 0, duration: 1 }}
+          src={Gp1} className="h-auto w-auto absolute left-[118px]" />
         </motion.div>
         <div className="col-span-4 w-full h-full p-0 m-0 flex flex-col justify-start items-start">
           <div className="w-full h-[242px] p-0 m-0 flex flex-col text-[70px] font-bold leading-[45px] text-white">

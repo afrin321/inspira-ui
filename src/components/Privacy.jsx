@@ -16,7 +16,7 @@ function Privacy() {
     <div className="w-full h-auto relative ">
       <div onClick={() => setPopupVisible(false)} className='w-[50px] h-[50px] bg-gray-300 text-gray-700 rounded-full border-4 border-gray-100 p-auto flex justify-center items-center font-semibold absolute right-5 top-5 popup_close'>X</div>
       
-      <div className="h-[1211px] w-full absolute top-[60px] flex flex-col gap-10 py-[4%] my-[4%] px-[10%] !pb-[100px]">
+      <div className="h-[1211px] w-full absolute top-[20px] flex flex-col gap-10 py-[4%] my-[4%] px-[10%] !pb-[100px]">
       <p className='!text-center !w-full'>
             AVISO DE PRIVACIDAD
         </p>

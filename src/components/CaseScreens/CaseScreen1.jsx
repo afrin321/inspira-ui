@@ -7,9 +7,13 @@ import cs5 from './../../assets/cola5.png'
 import VisibilityContext from './../../context/menuVisibleContext'
 
 function CaseScreen1() {
-  const { setPopupVisible,  } = useContext(VisibilityContext)
+  const { setPopupVisible, scrollPos, setScrollPos  } = useContext(VisibilityContext)
 
-
+  // const close = () => {
+  //   setPopupVisible(false)
+  //   console.log(scrollPos)
+  //   window.scrollTo(0, scrollPos)
+  // }
   
   
   return (
