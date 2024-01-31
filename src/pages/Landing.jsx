@@ -21,6 +21,7 @@ function Landing() {
   const [popupVisible, setPopupVisible] = useState(false)
   const [popup, setPopup] = useState(null)
   const [scrollPos, setScrollPos] = useState(null)
+  const [bodyScrollPos, setBodyScrollPos] = useState(0);
 
 
 
@@ -38,12 +39,31 @@ function Landing() {
     scrollPositionInVh > 90 ? setMenuFlip(true) : setMenuFlip(false)
   });
 
+  useEffect(() => {
+    if (popupVisible) {
+      // Disable body scroll
+      setBodyScrollPos(window.scrollY);
+      document.body.style.overflowY = 'hidden';
+    } else {
+      // Enable body scroll
+      document.body.style.overflowY = 'scroll';
+      window.scrollTo(0, bodyScrollPos);
+    }
+
+    // Cleanup effect on component unmount
+    return () => {
+      document.body.style.overflowY = 'scroll';
+    };
+  }, [popupVisible, bodyScrollPos]);
+
+  
 
 
+  // fixed top-0 left-0 overflow-hidden
 
   return (
     <VisibilityContext.Provider value={{ isVisible, setIsVisible, menuFlip, popupVisible, setPopupVisible, popup, setPopup, scrollPos, setScrollPos }}>
-      <motion.div className={`w-full h-auto  ${popupVisible ? 'fixed top-0 left-0 overflow-hidden' : 'relative' } `}>
+      <motion.div className={`w-full h-auto relative `}>
           {/* <Home/>      */}
           <Nav/>
           <div className='w-full h-auto m-0 p-0 absolute top-0'>
