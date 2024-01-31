@@ -10,31 +10,31 @@ function AboutUs() {
           initial={{ opacity: "0%" }}
           whileInView={{ opacity: "100%" }}
           transition={{ delay: 0, duration: 1 }}
-          className="text-[#F7073E] text-5xl whitespace-nowrap my-0"
+          className="text-[#F7073E] text-4xl xl:text-5xl whitespace-nowrap my-0"
         >
           ¿QUÉ NOS <b className="font-bold">INSPIRA</b>?{" "}
         </motion.span>
         <motion.div
-        className="w-full"
+        className="w-full flex flex-col gap-2"
           initial={{ opacity: "0%" }}
           whileInView={{ opacity: "100%" }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          <p className="text-[#A49090] text-md lg:text-xl font-semibold">
+          <p className="text-[#A49090] text-sm xl:text-xl font-semibold">
             Llegamos en el 2007 con el propósito de <b>cuidar</b> la
             consistencia e iconicidad de las marcas con las que colaboramos
             contribuyendo a su <b>memorabilidad</b>. <br /> Lo que más nos
             inspira, <b>es ser el guardián de tu marca.</b>
-            <br />
+            {/* <br /> */}
           </p>
-          <br />
-          <p className="text-[#A49090] text-ms lg:text-xl  font-semibold">
+          {/* <br /> */}
+          <p className="text-[#A49090] text-sm xl:text-xl  font-semibold">
             Damos soluciones en comunicación gráfica para los diferentes puntos
             de contacto entre una marca y su consumidor.
-            <br />
+            {/* <br /> */}
           </p>
-          <br />
-          <p className="text-[#A49090] text-ms lg:text-xl font-semibold">
+          {/* <br /> */}
+          <p className="text-[#A49090] text-sm xl:text-xl font-semibold">
             Somos <b>expertos</b> en la gestión de marca para{" "}
             <b>procesos y soluciones de etiquetado</b>, desde la fase de diseño
             hasta la producción de empaque. Trabajamos en equipo con nuestros
@@ -44,7 +44,7 @@ function AboutUs() {
           </p>
         </motion.div>
       </div>
-      <div className="w-1/2 h-[600px] xl:h-[550px] flex self-center -mt-10 2xl-mt-0 ">
+      <div className="w-1/2 h-[600px] lg:h-[400px] xl:h-[550px] flex self-center -mt-10 2xl-mt-0 ">
         <motion.div
           className="h-full w-full  ease-in"
           initial={{

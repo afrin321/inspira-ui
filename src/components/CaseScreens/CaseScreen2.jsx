@@ -12,13 +12,13 @@ function CaseScreen2() {
     <div className="w-full h-auto relative">
       <div onClick={() => setPopupVisible(false)} className='w-[50px] h-[50px] bg-gray-300 text-gray-700 rounded-full border-4 border-gray-100 p-auto flex justify-center items-center font-semibold absolute right-5 top-5 popup_close'>X</div>
       <img src={cs1} className="absolute top-0" />
-      <div className="case2-gradient h-[1311px] w-full absolute top-[360px] flex flex-col items-center pt-[15%] ">
+      <div className="case2-gradient h-[1311px] w-full absolute top-[60px] lg:top-[150px] xl:top-[360px] flex flex-col items-center pt-[15%] ">
         <span className="text-white text-4xl xl:text-[70px] font-medium leading-[95px]">
           <em>ADAPTATION CLOUD</em> <br /> LATAM Coca-Cola Brands
         </span>
         <div className="w-full px-[7.5%] flex xl:items-center  xl:gap-5 flex-col xl:flex-row gap-5 ">
           <div className="w-full xl:w-1/2 flex flex-col gap-5 pr-5 xl:mt-10">
-            <span className="text-white text-[70px] font-medium leading-[95px] px-[40px]">
+            <span className="text-white text-4xl xl:text-[70px] font-medium leading-[95px] px-[40px]">
               CONTEXTO
             </span>
             <p className="text-white text-[28px] font-medium leading-[40px]">
@@ -50,7 +50,7 @@ function CaseScreen2() {
           <div className="w-full xl:w-1/2 xl:block hidden ">
             <img src={cs2} />
           </div>
-          <div className="w-full xl:w-1/2 flex flex-col gap-3 ">
+          <div className="w-full xl:w-1/2 flex flex-col gap-3 2xl:mt-10 ">
             <span className="text-4xl xl:text-[70px] leading-[95px] font-medium pl-[10%] text-[#F7073E] ">
               PROBLEMA
             </span>

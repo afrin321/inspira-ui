@@ -17,16 +17,16 @@ function CaseScreen1() {
         X
       </div>
       <img src={cs1} className="absolute top-0" />
-      <div className="case1-gradient h-[1111px] w-full absolute top-[360px] flex flex-col items-center pt-[15%] ">
-        <span className="text-white text-4xl xl:mb-40 xl:text-[70px] font-medium leading-[95px]">
+      <div className="case1-gradient h-[1111px] w-full absolute top-[50px] flex flex-col items-center pt-[15%] ">
+        <span className="text-white text-4xl  xl:text-[70px] xl:mb-40 font-medium leading-[95px]">
           VERIFICADORA | Coca-Cola
         </span>
-        <div className="w-full px-[7.5%] flex flex-col xl:flex-row gap-4 xl:gap-1 items-center justify-center">
-          <div className="w-full xl:w-1/2 flex flex-col gap-5">
+        <div className="w-full px-[7.5%] mt-20 flex flex-col xl:flex-row gap-4 xl:gap-1 items-center justify-center">
+          <div className="w-full xl:w-1/2 flex flex-col gap-5 ">
             <span className="text-white text-4xl xl:text-[70px] font-medium leading-[95px] px-[40px]">
               CONTEXTO
             </span>
-            <p className="text-white text-[28px] font-medium leading-[40px] pr-[100px]">
+            <p className="text-white text-[28px] font-medium leading-[40px] ">
               Los 2 embotelladores más grandes del sistema Coca-Cola en México,
               FEMSA y ARCA Continental, son los responsables de generar el
               material POP y OOH del portafolio total de productos que circula a
@@ -37,7 +37,7 @@ function CaseScreen1() {
             </p>
           </div>
           <div className="w-full xl:w-1/2">
-            <img src={cs2} className="h-3/4" />
+            <img src={cs2} className="" />
           </div>
         </div>
         <div className=" w-full h-auto px-[7.5%] xl:mt-32 flex xl:flex-row xl:items-center flex-col gap-3">
@@ -68,7 +68,7 @@ function CaseScreen1() {
         </div>
         <div className=" w-full h-auto px-[7.5%] xl:mt-32 flex xl:flex-row xl:items-center flex-col gap-3">
           <div className="w-full xl:w-1/2 flex flex-col gap-3 xl:pr-[50px]">
-            <span className="text-[70px] leading-[95px] font-medium pl-[5%] text-[#F7073E] ">
+            <span className="text-4xl xl:text-[70px] leading-[95px] font-medium pl-[5%] text-[#F7073E] ">
               SOLUCIÓN
             </span>
             <p className="text-[#A49090] font-normal text-[28px] leading-[40px]">
@@ -91,10 +91,10 @@ function CaseScreen1() {
           </div>
         </div>
         <div className="w-full h-auto px-[7.5%] xl:mt-32 flex xl:flex-row xl:items-center flex-col gap-3 pb-10">
-          <div className="w-full xl:w-1/2 xl:block hidden ">
+          <div className="w-full xl:w-1/2 xl:block hidden  ">
             <img src={cs4} />
           </div>
-          <div className="w-full xl:w-1/2 flex flex-col gap-3 xl:pl-[50px]">
+          <div className="w-full xl:w-1/2 flex flex-col gap-3 mt-5 xl:pl-[50px]">
             <p className="text-[#A49090] font-normal text-[28px] leading-[40px]">
               Hoy, Inspira como AVE, es el canal de comunicación principal entre
               Coca-Cola Export y el embotellador, lo que ha sido de gran ayuda

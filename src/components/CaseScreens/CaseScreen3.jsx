@@ -11,13 +11,13 @@ function CaseScreen2() {
     <div className="w-full h-auto relative">
       <div onClick={() => setPopupVisible(false)} className='w-[50px] h-[50px] bg-gray-300 text-gray-700 rounded-full border-4 border-gray-100 p-auto flex justify-center items-center font-semibold absolute right-5 top-5 popup_close'>X</div>
       <img src={cs1} className="absolute top-0" />
-      <div className="case3-gradient h-[1540px] w-full absolute top-[260px] flex flex-col items-center pt-[15%] border-none">
+      <div className="case3-gradient h-[1540px] w-full absolute top-[200px] xl:top-[260px] flex flex-col items-center pt-[15%] border-none">
         <span className="mb-10 text-white text-[70px] font-medium leading-[95px]">
           ENERGIZER
         </span>
 
-        <img src={cs2} className="absolute top-[391px] w-full " />
-        <div className="px-[5%] flex flex-col text-center items-center absolute top-[700px] xl:top-[940px] gap-8">
+        <img src={cs2} className="absolute top-[300px] xl:top-[391px] 2xl:top-[491px] w-full " />
+        <div className="px-[5%] flex flex-col text-center items-center absolute top-[600px] xl:top-[940px] gap-8">
           <span className="text-white text-4xl xl:text-[70px] font-medium leading-[95px]">
             CONTEXTO
           </span>
@@ -81,7 +81,7 @@ function CaseScreen2() {
           </div>
           <div className=" w-full h-auto px-[7.5%] flex flex-col xl:flex-row gap-5 pb-[100px]">
             <div className="w-full xl:w-1/2 flex flex-col gap-3 pr-[50px]">
-              <span className="text-[70px] leading-[95px] font-medium pl-[5%] text-[#F7073E] ">
+              <span className="text-4xl xl:text-[70px] leading-[95px] font-medium pl-[5%] text-[#F7073E] ">
                 SOLUCIÓN
               </span>
               <p className="text-[#A49090] font-normal text-[28px] leading-[40px]">

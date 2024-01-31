@@ -9,7 +9,7 @@ function Home(props) {
     <div id="home" className="relative w-full h-fit -bottom-16 md:-bottom-20 ">
       <img src={Bg} className="w-full h-full " />
       <section className="absolute top-0 left-0 flex items-end h-full w-full px-20 gap-10">
-        <div className="w-1/2 h-4/5  pb-20">
+        <div className="w-1/2 h-4/5 pb-16 xl:pb-20">
           <motion.div
             className="h-full col-span-5 p-0 m-0 ease-in"
             initial={{ opacity: 0 }}
@@ -20,7 +20,7 @@ function Home(props) {
           </motion.div>
         </div>
         <div className="w-1/2 h-4/5 flex flex-col justify-between items-start pb-20 ">
-          <div className="w-1/2  p-0 m-0 flex flex-col md:gap-4 gap-2 sm:text-xl md:text-3xl lg:text-4xl xl:text-6xl 2xl:text-7xl font-bold  text-white">
+          <div className="w-1/2  p-0 m-0 flex flex-col gap-0 xl:gap-4 sm:text-xl md:text-3xl lg:text-4xl xl:text-6xl 2xl:text-7xl font-bold  text-white">
             <motion.span
               className="p-0 m-0"
               initial={{ opacity: 0 }}
@@ -51,7 +51,7 @@ function Home(props) {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 2.75, duration: 0.75 }}
-              className="text-white font-medium sm:text-lg  lg:text-2xl 2xl:text-3xl 3xl:text-4xl leading-[50px]"
+              className="text-white font-medium  lg:text-xl xl:text-2xl 2xl:text-3xl "
             >
               Soluciones en comunicación gráfica y gestión de marca para
               procesos de etiquetado.

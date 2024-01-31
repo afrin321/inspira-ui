@@ -62,7 +62,7 @@ function Qualities() {
             CASOS QUE NOS SIGUEN <b>INSPIRANDO</b>{' '}
           </span>
         </div>
-        <div className="flex justify-between gap-2 h-full py-2 ">
+        <div className="flex justify-between gap-2 h-[80vh] py-2 ">
           <motion.div
             ref={divA}
             onHoverStart={() => setHoverElement(divA)}
