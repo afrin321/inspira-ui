@@ -16,7 +16,7 @@ function CaseScreen4() {
     <div className="w-full h-auto relative">
       <div onClick={() => setPopupVisible(false)} className='w-[50px] h-[50px] bg-gray-300 text-gray-700 rounded-full border-4 border-gray-100 p-auto flex justify-center items-center font-semibold absolute right-5 top-5 popup_close'>X</div>
       <img src={cs1} className="absolute top-0" />
-      <div className="case4-gradient h-[1111px] w-full absolute top-[60px] xl:top-[360px] flex flex-col items-center pt-[15%] ">
+      <div className="case4-gradient h-[1111px] w-full absolute top-[360px] flex flex-col items-center pt-[15%] ">
         <span className="text-white text-[70px] font-medium leading-[95px]">
             SANTA CLARA
         </span>

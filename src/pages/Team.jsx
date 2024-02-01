@@ -14,9 +14,9 @@ function Team() {
           ¿QUIÉN NOS <span className="font-bold">INSPIRA</span>?{" "}
         </span>
       </div>
-      <div className="h-50 xl:h-96 flex gap-2 justify-start w-full ">
-        <div className="w-4/5 xl:w-3/5 flex gap-4 items-center">
-          <img src={Person1} className="w-[200px] h-[200px] xl:h-full xl:w-auto" />
+      <div className="h-80 xl:h-96 flex gap-2 justify-start w-full ">
+        <div className="w-full lg:w-3/5 flex gap-4 items-center">
+          <img src={Person1} className="h-full w-auto" />
           <div className="flex flex-col items-start xl:text-xl 2xl:text-2xl">
             <p className="text-[#FF6F1F] font-medium">
               <b>LUCÍA PÉREZ</b> <br /> GENERAL MANAGER
@@ -28,9 +28,9 @@ function Team() {
           </div>
         </div>
       </div>
-      <div className="h-50 xl:h-96 flex gap-2 justify-end xl:text-xl 2xl:text-2xl w-full mt-0 xl:-mt-10 ">
-        <div className="w-3/4 xl:w-3/5 flex gap-4 items-center">
-          <img src={Person2} className="w-[200px] h-[200px] xl:h-full xl:w-auto" />
+      <div className="h-80 xl:h-96 flex gap-2 justify-end xl:text-xl 2xl:text-2xl w-full mt-0 xl:-mt-10 ">
+        <div className="w-full lg:w-3/5 flex gap-4 items-center">
+          <img src={Person2} className="h-full w-auto" />
           <div className="flex flex-col items-start">
             <p className="text-[#FF6F1F] font-medium">
               <b>IVONNE FLORES</b> <br /> GENERAL MANAGER
